@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0238-product-of-array-except-self](https://github.com/Harsimar8/Leet_Code/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/Harsimar8/Leet_Code/tree/master/0485-max-consecutive-ones) |
 ## Divide and Conquer
@@ -90,4 +91,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Harsimar8/Leet_Code/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Harsimar8/Leet_Code/tree/master/0021-merge-two-sorted-lists) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Harsimar8/Leet_Code/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
