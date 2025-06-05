@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Harsimar8/Leet_Code/tree/master/0061-rotate-list) |
 | [0088-merge-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Harsimar8/Leet_Code/tree/master/0141-linked-list-cycle) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Harsimar8/Leet_Code/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Linked List
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Harsimar8/Leet_Code/tree/master/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/Harsimar8/Leet_Code/tree/master/0141-linked-list-cycle) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Harsimar8/Leet_Code/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
