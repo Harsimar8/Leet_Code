@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0978-valid-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0978-valid-mountain-array) |
+| [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -105,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Harsimar8/Leet_Code/tree/master/0238-product-of-array-except-self) |
+## Interactive
+|  |
+| ------- |
+| [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
 <!---LeetCode Topics End-->
