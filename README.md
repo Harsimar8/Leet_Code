@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0485-max-consecutive-ones](https://github.com/Harsimar8/Leet_Code/tree/master/0485-max-consecutive-ones) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0978-valid-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0978-valid-mountain-array) |
 ## Divide and Conquer
 |  |
 | ------- |
