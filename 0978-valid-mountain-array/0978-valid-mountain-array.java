@@ -1,11 +1,9 @@
 class Solution {
     public boolean validMountainArray(int[] arr) {
-        int n = arr.length;
-        if(n < 3){
-            return false;
-        }
+        int n = arr.length-1;
+    
         int index =0;
-        while(index <n-1){
+        while(index <n){
             if(arr[index] < arr[index +1]){
                 index++;
             }
@@ -13,10 +11,10 @@ class Solution {
                 break;
             }
         }
-        if(index == 0 || index == n-1){
+        if(index == 0 || index == n){
             return false;
         }
-        while(index < n-1){
+        while(index < n){
             if(arr[index] > arr[index + 1]){
                 index++;
             }
@@ -24,6 +22,6 @@ class Solution {
                 break;
             }
         }
-        return (index == n-1);
+        return (index == n);
     }
 }
