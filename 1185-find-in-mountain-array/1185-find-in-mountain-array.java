@@ -23,7 +23,7 @@ class Solution {
                 }
                 break;
              }
-             else if(mid != n-1  && curr < mountainArr.get(mid+1)){
+             else if(curr < mountainArr.get(mid+1)){
                 start = mid +1;
              }
              else{
