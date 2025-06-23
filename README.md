@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Harsimar8/Leet_Code/tree/master/0907-koko-eating-bananas) |
 | [0978-valid-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0978-valid-mountain-array) |
 | [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Harsimar8/Leet_Code/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Harsimar8/Leet_Code/tree/master/0907-koko-eating-bananas) |
 | [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Harsimar8/Leet_Code/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 ## Bit Manipulation
 |  |
 | ------- |
