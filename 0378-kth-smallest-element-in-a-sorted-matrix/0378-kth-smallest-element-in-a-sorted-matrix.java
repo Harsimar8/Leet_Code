@@ -30,6 +30,7 @@ class Solution {
                     e = mid -1;
                 }
             }
+            s = e +1;
             count +=s;
         }
         return count;
