@@ -1,36 +1,29 @@
 class Solution {
-    public void rotate(int[][] mat) {
-        int n = mat.length;
-         transpose(mat,n);
+    public void rotate(int[][] matrix) {
+        int[][] transposed = transpose(matrix); 
+        int n = transposed.length;
         for(int i =0; i<n; i++){
-            for(int j =0; j<n/2;j++){
-                int temp = mat[i][j];
-                mat[i][j] = mat[i][n-j-1];
-                mat[i][n-j-1] = temp;
+            for(int j =0; j<n/2; j++){
+                int temp = transposed[i][j];
+                transposed[i][j] =  transposed[i][n-j-1]; 
+                transposed[i][n-j-1] = temp;
             }
         }
-        
-        
+        for(int i =0; i<n; i++){
+            for(int j =0; j<n; j++){
+                matrix[i][j] = transposed[i][j];
+            }
+        }
     }
-    // public void transpose(int[][] mat){
-    //     int r = mat.length;
-    //     int c = mat[0].length;
-    //     int[][] arr = new int[r][c];
-    //     for(int i =0; i<r; i++){
-    //         for(int j =0; j<c; j++){
-    //             arr[i][j] = mat[j][i]; 
-    //         }
-    //     }
-        
-    // }
-    public void transpose(int[][] arr, int n){
-     n = arr.length;
-        for(int i =0; i<n; i++){
-            for(int j =0; j<i; j++){
-                int temp = arr[i][j];
-                arr[i][j] = arr[j][i];
-                arr[j][i] = temp;
+    public int[][] transpose(int[][] arr){
+        int r= arr.length;
+        int c = arr[0].length;
+        int[][] naa = new int[c][r];
+        for(int i =0; i<c; i++){
+            for(int j =0; j<r; j++){
+                naa[i][j] = arr[j][i];
             }
         }
+        return naa; 
     }
 }
