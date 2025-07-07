@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/Harsimar8/Leet_Code/tree/master/0071-simplify-path) |
+| [0344-reverse-string](https://github.com/Harsimar8/Leet_Code/tree/master/0344-reverse-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Harsimar8/Leet_Code/tree/master/0141-linked-list-cycle) |
 | [0287-find-the-duplicate-number](https://github.com/Harsimar8/Leet_Code/tree/master/0287-find-the-duplicate-number) |
+| [0344-reverse-string](https://github.com/Harsimar8/Leet_Code/tree/master/0344-reverse-string) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Harsimar8/Leet_Code/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Linked List
 |  |
