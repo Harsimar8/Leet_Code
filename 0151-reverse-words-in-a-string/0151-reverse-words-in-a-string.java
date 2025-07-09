@@ -15,6 +15,7 @@ class Solution {
             while(start >= 0 && s.charAt(start) != ' ' ){
                 start--;
             }
+            
             if(res.length() == 0){
                 res.append(s.substring(start+1, endInd+1));
             }
