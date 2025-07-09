@@ -3,19 +3,25 @@ class Solution {
         if(s.length() != t.length()){
             return false;
         }
-        char cs[] = s.toCharArray();
-        char ct[] = t.toCharArray();
-        Arrays.sort(cs);
-        Arrays.sort(ct);
-        int indexs =0;
+        int indexs = 0;
         int indext =0;
-        int a = cs.length ;
-        while(indexs <a && indext <a){
-            if(cs[indexs]!= ct[indext]){
-                return false;
-            }
+        int[] freq = new int[26];
+        int a = s.length();
+        while(indexs < a && indext < a){
+            char c1 = s.charAt(indexs);
+            int freqIndex = c1 - 'a';
+            freq[freqIndex] +=1 ;
+            char c2 = t.charAt(indext);
+            freqIndex = c2 - 'a';
+            freq[freqIndex] -= 1;
             indexs++;
             indext++;
+
+        }
+        for(int i =0; i<26;i++){
+            if(freq[i]!= 0){
+                return false;
+            }
         }
         return true;
     }
