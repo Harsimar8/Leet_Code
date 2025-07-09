@@ -3,19 +3,15 @@ class Solution {
         if(s.length() != t.length()){
             return false;
         }
-        char charA[] = s.toCharArray();
-        char charB[] = t.toCharArray();
-
-        Arrays.sort(charA);
-        Arrays.sort(charB);
+        char cs[] = s.toCharArray();
+        char ct[] = t.toCharArray();
+        Arrays.sort(cs);
+        Arrays.sort(ct);
         int indexs =0;
         int indext =0;
-        int start = 0;
-        int end =s.length() -1;
-        int a = charA.length;
-        while(indexs<a && indext <a){
-            if(charA[indexs]!= charB[indext]){
-                
+        int a = cs.length ;
+        while(indexs <a && indext <a){
+            if(cs[indexs]!= ct[indext]){
                 return false;
             }
             indexs++;
