@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Harsimar8/Leet_Code/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Harsimar8/Leet_Code/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Harsimar8/Leet_Code/tree/master/0048-rotate-image) |
+| [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Harsimar8/Leet_Code/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/0151-reverse-words-in-a-string) |
+| [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/Harsimar8/Leet_Code/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Harsimar8/Leet_Code/tree/master/0344-reverse-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
