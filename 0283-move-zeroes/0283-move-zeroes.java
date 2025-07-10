@@ -11,8 +11,8 @@ class Solution {
         }
         int l =0;
         for(int k=0; k<arr.length; k++){
-            nums[k] = arr[l];
-            l++; 
+            nums[k] = arr[l++];
+           
         }
         
 
