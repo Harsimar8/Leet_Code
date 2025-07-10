@@ -2,8 +2,7 @@ class Solution {
     public String reverseWords(String s) {
         String ch[] = s.split(" ");
         StringBuilder res = new StringBuilder();
-        
-        for(int i =0; i<ch.length;i++){
+        for(int i =0; i<ch.length;i++){  
             char ans[] = ch[i].toCharArray();
             reverse(ans);
             res.append(ans);
