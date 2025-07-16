@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/Harsimar8/Leet_Code/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0136-single-number](https://github.com/Harsimar8/Leet_Code/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Harsimar8/Leet_Code/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Harsimar8/Leet_Code/tree/master/0004-median-of-two-sorted-arrays) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 ## Tree
 |  |
@@ -133,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/Harsimar8/Leet_Code/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -209,4 +213,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0104-maximum-depth-of-binary-tree) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
