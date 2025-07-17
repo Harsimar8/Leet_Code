@@ -18,17 +18,15 @@ class Solution {
         if(root == null){
             return true;
         }
-       
+        if(!isBalanced(root.left) || !isBalanced(root.right)){
+            return false;
+        }
         int lh = maxDepth(root.left);
         int rh = maxDepth(root.right);
         if(Math.abs(lh- rh) > 1){
             return false;
         }
-        boolean left = isBalanced(root.left);
-        boolean right = isBalanced(root.right);
-        if(!left || !right){
-            return false;
-        }
+
         
         return true;
     }
