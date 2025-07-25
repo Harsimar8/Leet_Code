@@ -43,7 +43,7 @@ class Solution {
         }
         q.offer(new Pair<>(root,0));
         int line =0;
-        mpp.put(0,root.val);
+       
         while(!q.isEmpty()){
             Pair<TreeNode, Integer> pair = q.poll();
             TreeNode noo = pair.getKey();
