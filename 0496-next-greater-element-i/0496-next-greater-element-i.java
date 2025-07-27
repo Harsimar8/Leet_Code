@@ -7,7 +7,7 @@ class Solution {
         int res[] = new int[n1];
         for(int i =0; i<n1;i++){
             int elem = nums1[i];
-           int ans =-1;
+           int ans = 0;
             for(int j =0; j<n2; j++){
                 if(nums2[j] == elem){
                     
@@ -20,7 +20,13 @@ class Solution {
                     }
                 }
             }
-            res[i] =ans;
+            if(ans == 0){
+                res[i] = -1;
+            }
+            else{
+                res[i] = ans;
+            }
+            
         }
         
         return res;
