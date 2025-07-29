@@ -1,28 +1,28 @@
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length;
+        Stack<Integer> st = new Stack<>();
         int[] res = new int[n];
+        int[] wae = new int[n*2];
         for(int i =0; i<n; i++){
+            wae[i] = nums[i];
+            wae[i + n] = nums[i];
+        }
+        for(int i = 0; i<n; i++){
             int elem = nums[i];
-            int ans =-1;
             boolean flag = false;
-            for(int j =i+1; j<n; j++){
-                if(nums[j] > elem){
-                    ans = nums[j];
-                    flag =true;
+            int ans =-1;
+            for(int j =i+1; j<wae.length; j++){
+                if(wae[j] > elem){
+                    ans = wae[j];
+                    flag = true;
                     break;
                 }
             }
-            if(!flag){
-                for(int k =0;k<i; k++){
-                    if(nums[k] > elem){
-                        ans = nums[k];
-                        break;
-                    }               
-                    
-                }
-            }
-            res[i] = ans;
+            
+                res[i] = ans;
+            
+            
         }
         return res;
     }
