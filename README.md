@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Harsimar8/Leet_Code/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/Harsimar8/Leet_Code/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0054-spiral-matrix) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/Harsimar8/Leet_Code/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0144-binary-tree-preorder-traversal) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Harsimar8/Leet_Code/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Harsimar8/Leet_Code/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Harsimar8/Leet_Code/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Harsimar8/Leet_Code/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0088-merge-sorted-array) |
@@ -259,12 +262,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsimar8/Leet_Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
