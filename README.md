@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Harsimar8/Leet_Code/tree/master/0560-subarray-sum-equals-k) |
+| [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0898-transpose-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0898-transpose-matrix) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 ## Math
 |  |
 | ------- |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0059-spiral-matrix-ii) |
+| [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 | [0898-transpose-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0898-transpose-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Harsimar8/Leet_Code/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Depth-First Search
