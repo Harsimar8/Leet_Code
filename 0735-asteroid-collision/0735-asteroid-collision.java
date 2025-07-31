@@ -1,34 +1,27 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> st = new Stack<>();
-        ArrayList<Integer> list = new ArrayList<>();
-        int n =asteroids.length;
-        for(int i =0; i<n; i++){
-            if(asteroids[i] > 0){
-                
-                st.push(asteroids[i]);
-                
+       
+       for (int curr : asteroids) {
+            boolean destroyed = false;
+
+            while (!st.isEmpty() && curr < 0 && st.peek() > 0) {
+                if (st.peek() < -curr) {
+                    st.pop(); // Right asteroid is smaller — destroy it
+                } else if (st.peek() == -curr) {
+                    st.pop(); // Both destroy each other
+                    destroyed = true;
+                    break;
+                } else {
+                    destroyed = true; // Current asteroid is smaller — destroy it
+                    break;
+                }
             }
-            else{
-                
-                while(!st.isEmpty() && st.peek() > 0 &&  Math.abs(asteroids[i]) > st.peek() ){
-                    
-                    st.pop();
-                }
-                
-                if(!st.isEmpty() && st.peek() > 0 && Math.abs(asteroids[i]) == st.peek() ){
-                    st.pop();
-                }
-                else if(st.isEmpty() || st.peek()  <0){
-                    st.push(asteroids[i]);
-                }
-                
-                
-                
-                
+
+            if (!destroyed) {
+                st.push(curr);
             }
-            
-        }
+       }
         int[] res = new int[st.size()];
         int i =0;
         while(!st.isEmpty()){
