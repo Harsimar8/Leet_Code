@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Harsimar8/Leet_Code/tree/master/0560-subarray-sum-equals-k) |
+| [0605-can-place-flowers](https://github.com/Harsimar8/Leet_Code/tree/master/0605-can-place-flowers) |
 | [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -285,5 +286,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0605-can-place-flowers](https://github.com/Harsimar8/Leet_Code/tree/master/0605-can-place-flowers) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 <!---LeetCode Topics End-->
