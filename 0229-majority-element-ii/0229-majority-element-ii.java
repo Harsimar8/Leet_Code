@@ -1,29 +1,24 @@
 class Solution {
-    public List<Integer> majorityElement(int[] v) {
-         int n = v.length; //size of the array
-        List<Integer> ls = new ArrayList<>(); // list of answers
-
-        for (int i = 0; i < n; i++) {
-            //selected element is v[i]:
-            // Checking if v[i] is not already
-            // a part of the answer:
-            if (ls.size() == 0 || ls.get(0) != v[i]) {
-                int cnt = 0;
-                for (int j = 0; j < n; j++) {
-                    // counting the frequency of v[i]
-                    if (v[j] == v[i]) {
-                        cnt++;
-                    }
+    public List<Integer> majorityElement(int[] nums) {
+        Set<Integer> list = new HashSet<>();
+        int n = nums.length;
+        int a = n/3;
+        for(int i =0; i<n; i++){
+            int cnt =0;
+            int elem = nums[i];
+            for(int j =0; j<n; j++){
+                if(nums[j] == elem  ){
+                    cnt++;
                 }
-
-                // check if frquency is greater than n/3:
-                if (cnt > (n / 3))
-                    ls.add(v[i]);
             }
-
-            if (ls.size() == 2) break;
+            if(cnt > a ){
+                list.add(nums[i]);
+            }
+            if(list.size() == 2){
+                break;
+            }
         }
-
-        return ls;
+        List<Integer> ll = new ArrayList<>(list);
+        return ll;
     }
 }
