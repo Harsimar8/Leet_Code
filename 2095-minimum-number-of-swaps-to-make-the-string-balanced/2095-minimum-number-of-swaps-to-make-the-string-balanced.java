@@ -4,7 +4,7 @@ class Solution {
         char ch[] = s.toCharArray();
         int cnt =0;
         for(int i =0; i<ch.length; i++){
-            if(ch[i] == ']'  && st.isEmpty()|| ch[i] == '['){
+            if( ch[i] == '[' || ch[i] == ']'  && st.isEmpty()){
                 st.push(ch[i]);
             }
             else if(ch[i] == ']' && st.peek() == '['){
