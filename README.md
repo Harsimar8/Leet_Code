@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Harsimar8/Leet_Code/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Harsimar8/Leet_Code/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Harsimar8/Leet_Code/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 ## Two Pointers
 |  |
 | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 ## Matrix
 |  |
 | ------- |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0898-transpose-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0898-transpose-matrix) |
+| [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 ## Simulation
 |  |
 | ------- |
@@ -245,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 | [0898-transpose-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0898-transpose-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Harsimar8/Leet_Code/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 ## Depth-First Search
 |  |
 | ------- |
