@@ -15,19 +15,29 @@
  */
 class Solution {
     public boolean checkTree(TreeNode root) {
-       if(root == null){
+      if(root == null){
             return false;
         }
         if(root.left == null && root.right == null){
             return true;
         }
+        else if(root.right == null){
+        if((root.left == null || root.right == null) &&  (root.left.val  == root.val)){
+            return true;
+        }
+        }
+        else if(root.left == null){
+          if((root.left == null || root.right == null) &&  (root.right.val == root.val)){
+            return true;
+        }  
+        }
+        
+        
         if(!(root.left.val + root.right.val == root.val)&& root.left == null || root.right == null){
             return false;
         }
         
-        
-        
         return (root.left.val + root.right.val == root.val) && checkTree(root.left)
-        && checkTree(root.right) ;
+        && checkTree(root.right)  ;
     }
 }
