@@ -26,7 +26,7 @@ class Solution {
         for(int i =0; i<n;i++){
             long pp = i-prefix[i];
             long rr = suffix[i]-i;
-            sum  = (sum + (long)arr[i] * pp % MODE * rr % MODE)%MODE);
+            sum  = (sum + (long)arr[i] * pp % MODE * rr % MODE)%MODE;
             if( sum < 0){
                 sum += MODE;
             }
