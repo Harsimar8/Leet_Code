@@ -24,7 +24,9 @@ class Solution {
         long sum =0;
         int MODE = (int)1e9 + 7;
         for(int i =0; i<n;i++){
-            sum += ((long)arr[i] * ((i-prefix[i])%MODE *(suffix[i]-i)%MODE)%MODE);
+            long pp = i-prefix[i];
+            long rr = suffix[i]-i;
+            sum  = (sum + (long)arr[i] * pp % MODE * rr % MODE)%MODE);
             if( sum < 0){
                 sum += MODE;
             }
