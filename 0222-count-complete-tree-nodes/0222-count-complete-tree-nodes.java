@@ -14,22 +14,29 @@
  * }
  */
 class Solution {
-    public int cnt =0;
     public int countNodes(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        return preOrder(root, res);
-    }
-    public int preOrder(TreeNode root, List<Integer> res){
+        TreeNode temp = root;
         if(root == null){
             return 0;
         }
-        
-        
-        preOrder(root.left, res);
-        res.add(root.val);
-        cnt++;
-        preOrder(root.right, res);
-        
-        return cnt;
+        int cnt1 =1;
+        int cnt2 =1;
+        while(root.left!= null){
+            cnt1++;
+            root = root.left;
+        }
+        root = temp;
+        while(root.right != null){
+            cnt2++;
+            root = root.right;
+        }
+        TreeNode l = temp;
+        TreeNode r = temp;
+        if(cnt1 == cnt2){
+            return (int)(Math.pow(2,cnt1)) -1;
+        }
+        else{
+           return  1 + countNodes(l.left) + countNodes(r.right);
+        }
     }
 }
