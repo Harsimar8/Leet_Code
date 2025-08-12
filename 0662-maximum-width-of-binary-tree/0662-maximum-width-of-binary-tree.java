@@ -24,25 +24,23 @@ class Solution {
         int maxi = Integer.MIN_VALUE;
         int indexL =0;
         int indexR = 0;
-        int left =0;
-        int right =0;
+       
         int width =0;                                
         while(!q.isEmpty()){
             int size = q.size();
-            indexL = 2 * left + 1;
-            indexR = 2 * right + 2;
+            int left =0;
+            int right =0;
             boolean first = true;
             for(int i =0; i<size; i++){
             Pair<TreeNode, Integer> pair= q.poll();
             int curr = pair.getValue();
             if(first){
-            left = curr;
+            left =curr;
             right = curr;
             first = false;
             }else{
             right = curr;
             }
-    
             indexL = 2 * curr + 1;
             indexR = 2 * curr + 2;
             if(pair.getKey().left!= null){
