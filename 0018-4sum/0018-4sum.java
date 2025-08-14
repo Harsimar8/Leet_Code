@@ -4,9 +4,7 @@ class Solution {
         List<List<Integer>> list = new ArrayList<>();
         int n = nums.length;
         
-                    if(target == -294967297  || target ==  -294967296){
-                        return list;
-                    }
+                    
         for(int i =0; i<n; i++){
             if(i > 0 && nums[i] == nums[i-1]){
                         continue;
@@ -24,8 +22,11 @@ class Solution {
                     if(k > j+1 && nums[k] == nums[k-1]){
                         continue;
                     }
+                    
                     List<Integer> sublist = new ArrayList<>();
-                    if(nums[i] + nums[j] + nums[k] + nums[l] == target){
+                    
+                        long sum = (long)nums[i] + nums[j] + nums[k] + nums[l];
+                        if( sum == target){
                         sublist.add(nums[i]);
                         sublist.add(nums[j]);
                         sublist.add(nums[k]);
