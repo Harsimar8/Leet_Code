@@ -1,40 +1,28 @@
 class Solution {
     public List<Integer> luckyNumbers(int[][] matrix) {
-        List<Integer> ans = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
+
         int r = matrix.length;
         int c = matrix[0].length;
-        int[] arr1 = new int[r+1];
-        int[] arr2 = new int[c+1];
-        
         for(int i =0; i<r; i++){
-            int minR = i;
-            int minC = 0;
-            for(int j =0; j<c; j++){
-                if(matrix[i][j] < matrix[minR][minC]){
-                    minR = i;
-                    minC = j;
+            int minCol = 0;
+            for(int j = 0; j<c; j++){
+                if(matrix[i][j] < matrix[i][minCol]){
+                    minCol = j;
                 }
             }
-            arr1[i] = matrix[minR][minC];
-        }
-        for(int i =0; i<c; i++){
-            int maxR =0;
-            int maxC =i;
-            for(int j =0; j<r; j++){
-                if(matrix[j][i] > matrix[maxR][maxC]){
-                    maxR = j;
-                    maxC = i;
-                }
+            boolean flag = true;
+            int ans = matrix[i][minCol];
+            for(int k = 0; k<r; k++){
+                    if(matrix[k][minCol] > ans){
+                        flag = false;
+                        break;
+                    }
             }
-            arr2[i] = matrix[maxR][maxC];
-        }
-        for(int i =0; i<r;i++){
-            for(int j =0; j<c; j++){
-                if(arr1[i] == arr2[j]){
-                    ans.add(arr1[i]);
-                }
+            if(flag){
+                result.add(matrix[i][minCol]);
             }
         }
-        return ans;
+        return result;
     }
 }
