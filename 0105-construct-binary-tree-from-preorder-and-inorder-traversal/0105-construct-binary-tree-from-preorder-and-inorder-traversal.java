@@ -14,31 +14,27 @@
  * }
  */
 class Solution {
-    private HashMap<Integer , Integer> indexMap;
+    public HashMap<Integer, Integer> mpp = new HashMap<>();
+
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if(preorder.length != inorder.length){
-            throw new IllegalArgumentException("Length of both are not equal");
-        }
-        indexMap = new HashMap<>();
-        for(int i =0; i<inorder.length; i++){
-            indexMap.put(inorder[i],i);
-        }
-        return constructTreeHelper(preorder ,inorder , 0, preorder.length -1, 0 ,inorder.length-1);
+        int n = inorder.length;
+        int q = preorder.length;
+        for(int i =0; i<n; i++){
+            mpp.put(inorder[i],i);
+        }    
+        return build(preorder, 0, preorder.length -1, inorder, 0, inorder.length -1);
     }
-    private TreeNode constructTreeHelper(int[] preorder , int[] inorder , int preStart , int preEnd , int inStart , int inEnd){
-        if(preStart > preEnd || inStart > inEnd){
+    public TreeNode build(int[] preorder, int preS, int preE, int[] inorder, int inS ,int  inE){
+        if(preS > preE || inS > inE){
             return null;
         }
-        int rootData = preorder[preStart];
-
-        TreeNode root = new TreeNode(rootData);
-        int rootIndex = indexMap.get(rootData);
-        
-        int  leftTreeSize = rootIndex - inStart;
-
-        root.left = constructTreeHelper(preorder , inorder , preStart +1, preStart + leftTreeSize , inStart, rootIndex -1);
-        root.right = constructTreeHelper(preorder , inorder , preStart + leftTreeSize +1, preEnd, rootIndex+1, inEnd);
+        int value = preorder[preS];
+        TreeNode root = new TreeNode(value);
+        int inIndex  =  mpp.get(root.val);
+        int left = inIndex - inS;
+        root.left = build(preorder, preS + 1, preS+left, inorder , inS, inIndex -1);
+        root.right = build(preorder, preS + left+1, preE, inorder , inS + left + 1, inE);
         return root;
-
     }
+
 }
