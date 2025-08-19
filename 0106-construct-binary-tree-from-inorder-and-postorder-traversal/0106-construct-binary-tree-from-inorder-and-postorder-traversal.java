@@ -14,30 +14,28 @@
  * }
  */
 class Solution {
-    private HashMap<Integer , Integer> indexMap;
+    public HashMap<Integer, Integer> mpp = new HashMap<>();
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        if(inorder.length!=postorder.length){
-            throw new IllegalArgumentException("Length of both the arrays are not same");
+        int in = inorder.length;
+        int post = postorder.length;
+        for(int i =0;i< in; i++){
+            mpp.put(inorder[i],i);
         }
-        indexMap = new HashMap<>();
-        for(int i =0; i<inorder.length; i++){
-            indexMap.put(inorder[i],i);
-        }
-        return constructTree(postorder , inorder, 0 , postorder.length -1 ,
-         0 , inorder.length-1);
+        return build(inorder, 0, inorder.length -1, postorder, 0 , postorder.length -1);    
     }
-    private TreeNode constructTree(int[] postorder , int[] inorder ,int postStart , int postEnd , int inStart , int inEnd){
-        if(postStart > postEnd || inStart > inEnd){
+    public TreeNode build(int[] inorder, int inS , int inE , int[] postorder, int postS, int postE){
+        if(inS > inE || postS > postE ){
             return null;
+
         }
-        int rootData = postorder[postEnd];
-        TreeNode root  =new TreeNode(rootData);
-        int rootIndex = indexMap.get(rootData); 
-        int leftTreeSize = rootIndex - inStart;
-
-        root.left = constructTree(postorder,inorder , postStart , postStart +leftTreeSize -1, inStart , rootIndex -1);
-        root.right = constructTree(postorder , inorder , postStart+leftTreeSize , postEnd -1,rootIndex +1 , inEnd);
+        int value = postorder[postE];
+        TreeNode root = new TreeNode(value);
+        int inIndex = mpp.get(root.val);
+        int left = inIndex - inS;
+        root.left = build(inorder, inS , inIndex -1,  postorder, postS , postS + left -1);
+        root.right = build(inorder, inIndex +1, inE, postorder, postS + left, postE - 1);
         return root;
-
     }
+
+
 }
