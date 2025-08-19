@@ -15,10 +15,11 @@ class Solution {
             chars[j++] = c;
             if(count > 1){
                 sb.append(count);
-                while(sb.length() > 0){
+                while(sb.length() != 0){
                     chars[j++] = sb.charAt(0);
                     sb.deleteCharAt(0);
                 }
+                
             }
             i++;
         }
