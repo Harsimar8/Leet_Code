@@ -14,7 +14,7 @@ class Solution {
         
         Queue<TreeNode> q = new LinkedList<>();
         Queue<TreeNode> q1 = new LinkedList<>();
-         HashMap<TreeNode,TreeNode> parent = new HashMap<>();
+        //  HashMap<TreeNode,TreeNode> parent = new HashMap<>();
 
         q.add(root);
         if(root == null){
