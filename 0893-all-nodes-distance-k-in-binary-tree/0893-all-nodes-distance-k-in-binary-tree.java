@@ -61,10 +61,10 @@ class Solution {
                 }
                 
                 
-                if(parent.containsKey(qq) && !visited.containsKey(parent.get(qq))) {
-                    q1.add(parent.get(qq));
-                    visited.put(parent.get(qq), true);
-                }
+                // if(parent.containsKey(qq) && !visited.containsKey(parent.get(qq))) {
+                //     q1.add(parent.get(qq));
+                //     visited.put(parent.get(qq), true);
+                // }
             }
             value++;
             
