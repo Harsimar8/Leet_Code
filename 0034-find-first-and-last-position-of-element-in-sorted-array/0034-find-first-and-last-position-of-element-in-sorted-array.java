@@ -15,8 +15,8 @@ class Solution {
         int high = n-1;
         int ans = -1;
         
-        for(int i =0; i<n;i++){
-            int mid =  ( high + low)/2;
+        while(low <= high){
+            int mid = low +  ( high - low)/2;
             if(nums[mid] == target){
                 if(pos == 0){
                     ans = mid;
