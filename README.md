@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Harsimar8/Leet_Code/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Harsimar8/Leet_Code/tree/master/0560-subarray-sum-equals-k) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Harsimar8/Leet_Code/tree/master/0326-power-of-three) |
+| [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 ## Binary Search
 |  |
 | ------- |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Harsimar8/Leet_Code/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Harsimar8/Leet_Code/tree/master/0021-merge-two-sorted-lists) |
 | [0326-power-of-three](https://github.com/Harsimar8/Leet_Code/tree/master/0326-power-of-three) |
+| [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -356,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsimar8/Leet_Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0152-maximum-product-subarray) |
+| [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 | [0943-sum-of-subarray-minimums](https://github.com/Harsimar8/Leet_Code/tree/master/0943-sum-of-subarray-minimums) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Harsimar8/Leet_Code/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Monotonic Stack
@@ -383,4 +387,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0297-serialize-and-deserialize-binary-tree) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
