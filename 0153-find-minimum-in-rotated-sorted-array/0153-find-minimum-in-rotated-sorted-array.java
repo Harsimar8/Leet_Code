@@ -1,10 +1,19 @@
 class Solution {
     public int findMin(int[] nums) {
-        int mini = Integer.MAX_VALUE;
         int n = nums.length;
-        for(int i =0; i<n;i++){
-            if(nums[i] < mini){
-                mini = nums[i];
+        int low = 0;
+        int high = n -1;
+        int mini = Integer.MAX_VALUE;
+        
+        while(low <= high){
+            int mid = low + (high - low)/2;
+            if(nums[low] <= nums[mid]){
+                mini  = Math.min(mini, nums[low]);
+                low = mid +1;
+            }
+            else if(nums[mid] <= nums[high]){
+                mini = Math.min(mini, nums[mid]);
+                high = mid -1;
             }
         }
         return mini;
