@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Harsimar8/Leet_Code/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0059-spiral-matrix-ii) |
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Harsimar8/Leet_Code/tree/master/0075-sort-colors) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsimar8/Leet_Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0152-maximum-product-subarray) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Harsimar8/Leet_Code/tree/master/0605-can-place-flowers) |
 | [0890-lemonade-change](https://github.com/Harsimar8/Leet_Code/tree/master/0890-lemonade-change) |
