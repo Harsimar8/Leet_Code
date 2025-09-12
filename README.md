@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Harsimar8/Leet_Code/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Harsimar8/Leet_Code/tree/master/0560-subarray-sum-equals-k) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
 ## Tree
 |  |
 | ------- |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Harsimar8/Leet_Code/tree/master/0287-find-the-duplicate-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Harsimar8/Leet_Code/tree/master/0907-koko-eating-bananas) |
@@ -447,4 +450,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
