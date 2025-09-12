@@ -3,7 +3,7 @@ class Solution {
         int l =0;
         int r = 0;
         int jumps = 0;
-        while(r < nums.length-1){
+        while(r < nums.length){
             int farth = 0;
         if(r >= nums.length -1){
                 break;
