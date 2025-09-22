@@ -373,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Harsimar8/Leet_Code/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Harsimar8/Leet_Code/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Harsimar8/Leet_Code/tree/master/0733-flood-fill) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Harsimar8/Leet_Code/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0407-trapping-rain-water-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0407-trapping-rain-water-ii) |
+| [0547-number-of-provinces](https://github.com/Harsimar8/Leet_Code/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Harsimar8/Leet_Code/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Harsimar8/Leet_Code/tree/master/0733-flood-fill) |
@@ -436,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Harsimar8/Leet_Code/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/Harsimar8/Leet_Code/tree/master/0547-number-of-provinces) |
 ## String Matching
 |  |
 | ------- |
@@ -478,4 +481,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/Harsimar8/Leet_Code/tree/master/0051-n-queens) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Harsimar8/Leet_Code/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
