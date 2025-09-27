@@ -38,10 +38,10 @@ class Solution {
                     q.offer( new int[]{x,y});
                 }
             }
-            if(size != 0){
+            if(q.size() != 0){
                 time++;
             }
         }
-        return (cnt_F == cnt) ? time-1 : -1;
+        return (cnt_F == cnt) ? time : -1;
     }
 }
