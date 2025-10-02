@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Harsimar8/Leet_Code/tree/master/0344-reverse-string) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0443-string-compression](https://github.com/Harsimar8/Leet_Code/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0812-rotate-string](https://github.com/Harsimar8/Leet_Code/tree/master/0812-rotate-string) |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Harsimar8/Leet_Code/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Array
 |  |
@@ -136,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
 ## Tree
 |  |
