@@ -1,14 +1,22 @@
 class Solution {
     public int numWaterBottles(int numBottles, int numExchange) {
-        int totalDrunk = numBottles; // Start by drinking all initial bottles
-        int emptyBottles = numBottles; // Track empty bottles
-
-        while (emptyBottles >= numExchange) {
-            int newFull = emptyBottles / numExchange; // Exchange empty bottles for new full ones
-            totalDrunk += newFull;                   // Drink the new full bottles
-            emptyBottles = emptyBottles % numExchange + newFull; // Update empty bottles
+        int numB = numBottles;
+        int numE = numExchange;
+        int cnt =0;
+        int numF = numB;
+        int numEmpty = 0;
+        while(numB >= numE){
+            cnt += numF;
+            numEmpty += numF;
+            numF = 0;
+            int ans =0;
+            if(numEmpty >= numE){
+                ans =  numEmpty/numE;
+                numF = ans;
+                numEmpty = numEmpty - (numE * numF);
+            }
+            numB = numF + numEmpty;
         }
-
-        return totalDrunk;
+        return cnt + numF;
     }
 }
