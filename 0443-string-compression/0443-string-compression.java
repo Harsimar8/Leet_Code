@@ -1,36 +1,24 @@
 class Solution {
     public int compress(char[] chars) {
         int n = chars.length;
-        if(n == 1){
-            return 1;
-        }
-        StringBuilder sb = new StringBuilder(); 
+        int index =0;
+        HashMap<Character,Integer> mpp = new HashMap<>();
         int i =0;
-        int j =0;
+       
         while(i<n){
-            int cnt =1;
-            for(int k =i+1; k<n;k++){
-                if(chars[i] == chars[k]){
-                    cnt++;
-                    i++;
+            char cur = chars[i];
+            int count =0;
+            while(i<n && chars[i] == cur){
+                i++;
+                count++;
+            }
+            chars[index++] = cur;
+            if(count > 1){
+                for(char c : String.valueOf(count).toCharArray()){
+                    chars[index++] = c;
                 }
-                else{
-                break;
-                }
             }
-            
-            chars[j++] = chars[i];
-            if(cnt > 1){
-            sb.append(cnt);
-            while(sb.length() != 0){
-            chars[j++] = sb.charAt(0);
-            sb.deleteCharAt(0);
-            }
-            }
-            i++;
-            
-            
         }
-        return j;
+        return index;
     }
 }
