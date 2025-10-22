@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1547-destination-city](https://github.com/Harsimar8/Leet_Code/tree/master/1547-destination-city) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Harsimar8/Leet_Code/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0812-rotate-string](https://github.com/Harsimar8/Leet_Code/tree/master/0812-rotate-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1547-destination-city](https://github.com/Harsimar8/Leet_Code/tree/master/1547-destination-city) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2470-removing-stars-from-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/2470-removing-stars-from-a-string) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Harsimar8/Leet_Code/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Harsimar8/Leet_Code/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1547-destination-city](https://github.com/Harsimar8/Leet_Code/tree/master/1547-destination-city) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Harsimar8/Leet_Code/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2047-find-a-peak-element-ii) |
