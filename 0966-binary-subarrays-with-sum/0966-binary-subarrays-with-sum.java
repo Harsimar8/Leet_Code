@@ -3,21 +3,20 @@ import java.util.Map;
 
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        Map<Integer, Integer> prefixCount = new HashMap<>();
-        prefixCount.put(0, 1); // base case: sum 0 occurs once
+        Map<Integer, Integer> preC = new HashMap<>();
+        preC.put(0, 1); 
 
-        int sum = 0, result = 0;
+        int sum = 0, res = 0;
 
         for (int num : nums) {
             sum += num;
 
-            // Check if there's a prefix sum that would make the subarray sum to goal
-            result += prefixCount.getOrDefault(sum - goal, 0);
+            
+            res += preC.getOrDefault(sum - goal, 0);
 
-            // Record the current prefix sum
-            prefixCount.put(sum, prefixCount.getOrDefault(sum, 0) + 1);
+            preC.put(sum, preC.getOrDefault(sum, 0) + 1);
         }
 
-        return result;
+        return res;
     }
 }
