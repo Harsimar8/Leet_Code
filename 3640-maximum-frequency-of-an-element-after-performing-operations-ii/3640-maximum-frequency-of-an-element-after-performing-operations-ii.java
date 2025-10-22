@@ -4,29 +4,29 @@ class Solution {
     private int check(int[] nums, int n, int t, int m) {
         long nL = n;
         long tL = t;
-        int l = lowerBound(nums, nL);
-        int h = upperBound(nums, nL);
-        int ll = lowerBound(nums, nL - tL);
-        int hh = upperBound(nums, nL + tL);
+        int l = lowerB(nums, nL);
+        int h = upperB(nums, nL);
+        int ll = lowerB(nums, nL - tL);
+        int hh = upperB(nums, nL + tL);
         int res = (hh - h) + (l - ll);
         return Math.min(m, res) + (h - l);
     }
 
-    private int lowerBound(int[] arr, long target) {
+    private int lowerB(int[] arr, long t) {
         int l = 0, r = arr.length;
         while (l < r) {
             int mid = (l + r) / 2;
-            if (arr[mid] < target) l = mid + 1;
+            if (arr[mid] < t) l = mid + 1;
             else r = mid;
         }
         return l;
     }
 
-    private int upperBound(int[] arr, long target) {
+    private int upperB(int[] arr, long t) {
         int l = 0, r = arr.length;
         while (l < r) {
             int mid = (l + r) / 2;
-            if (arr[mid] <= target) l = mid + 1;
+            if (arr[mid] <= t) l = mid + 1;
             else r = mid;
         }
         return l;
