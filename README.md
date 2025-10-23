@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2470-removing-stars-from-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/2470-removing-stars-from-a-string) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/Harsimar8/Leet_Code/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3336-water-bottles-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3336-water-bottles-ii) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -438,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2470-removing-stars-from-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/2470-removing-stars-from-a-string) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3336-water-bottles-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3336-water-bottles-ii) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -608,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Topological Sort
 |  |
 | ------- |
@@ -626,4 +630,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Harsimar8/Leet_Code/tree/master/0014-longest-common-prefix) |
+## Number Theory
+|  |
+| ------- |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 <!---LeetCode Topics End-->
