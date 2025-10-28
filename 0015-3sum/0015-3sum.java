@@ -1,41 +1,40 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums);
-        List<List<Integer>> list = new ArrayList<>();
-
+        List<List<Integer>> ans = new ArrayList<>();
         int n = nums.length;
-        
-        for(int i =0; i<n;i++){
-             if(i>0 && nums[i] == nums[i-1]){continue;}
-            int k = n-1;
-            for(int j = i+1; j<n; j++){
-                if(j>i+1 && j < n-1 &&  nums[j] == nums[j-1] ){continue;}
-                List<Integer> sublist = new ArrayList<>();
-                if(j>=k){
-                    break;
-                }
-                if(nums[i] + nums[j] + nums[k] == 0){
-                    sublist.add(nums[i]);
-                    sublist.add(nums[j]);
-                    sublist.add(nums[k]);
-                    
-                    list.add(sublist);
-                    k--;
-                    
-                    
-                }
-                else if(nums[i] + nums[j] + nums[k] > 0){
-                    k--;
-                    j--;
-                }
-                while( k < n-1 && k > 0 &&  nums[k] == nums[k+1]){
-                    k--;
-                }
+        Arrays.sort(nums);
+        int sum = 0;
+        for(int i =0; i<n-2;i++){
+            if( i > 0 && nums[i] == nums[i-1]){
+                continue;
             }
-            if(i == k){
-                break;
+            int left = i+1;
+            int right = n -1;
+            while(left < right){
+                sum = nums[i] + nums[left] + nums[right];
+                if(sum < 0){
+                    left++;
+                }
+                else if(sum > 0){
+                    right--;
+                }
+                else{
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[i]);
+                    list.add(nums[left]);
+                    list.add(nums[right]);
+                    
+                    ans.add(list);
+                    while(left < right && nums[left] == nums[left +1]){
+                        left++;
+                    }
+                    
+                    left++;
+                    right--;
+
+                }
             }
         }
-        return list;
+        return ans;
     }
 }
