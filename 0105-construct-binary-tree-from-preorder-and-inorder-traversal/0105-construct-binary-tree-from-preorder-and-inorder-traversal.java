@@ -14,27 +14,23 @@
  * }
  */
 class Solution {
-    public HashMap<Integer, Integer> mpp = new HashMap<>();
-
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        int n = inorder.length;
-        int q = preorder.length;
-        for(int i =0; i<n; i++){
-            mpp.put(inorder[i],i);
-        }    
-        return build(preorder, 0, preorder.length -1, inorder, 0, inorder.length -1);
+        HashMap<Integer,Integer> mpp = new HashMap<>();
+        for(int i =0; i<inorder.length; i++){
+            mpp.put(inorder[i], i);
+        }
+        return build(preorder, inorder, 0, preorder.length -1, 0, inorder.length -1, mpp);
     }
-    public TreeNode build(int[] preorder, int preS, int preE, int[] inorder, int inS ,int  inE){
+    public TreeNode build(int[] preorder,int[] inorder, int preS, int preE, int inS, int inE,HashMap<Integer,Integer> mpp){
+
         if(preS > preE || inS > inE){
             return null;
-        }
-        int value = preorder[preS];
-        TreeNode root = new TreeNode(value);
-        int inIndex  =  mpp.get(root.val);
-        int left = inIndex - inS;
-        root.left = build(preorder, preS + 1, preS+left, inorder , inS, inIndex -1);
-        root.right = build(preorder, preS + left+1, preE, inorder , inS + left + 1, inE);
+        } 
+        TreeNode root = new TreeNode(preorder[preS]);
+        int inroot = mpp.get(root.val);
+        int nums = inroot - inS;
+        root.left = build(preorder,inorder,preS + 1,preS + nums , inS, inroot-1,mpp);
+        root.right = build(preorder,inorder,preS + nums + 1, preE, inroot + 1, inE,mpp);
         return root;
     }
-
 }
