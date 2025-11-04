@@ -1,46 +1,44 @@
 class Solution {
-    HashMap<Integer, Integer> hmap;
     public int[] findXSum(int[] nums, int k, int x) {
-        hmap = new HashMap<>();
         int n = nums.length;
-        int ans[] = new int[n-k+1];
-        int index = 0;
-
-        for(int i=0; i<n; i++) {
-            hmap.put(nums[i], hmap.getOrDefault(nums[i], 0) + 1);
-            // If we can form a k length subarray
-            if(i >= k-1) {
-                ans[index++] = getSum(x);
-                int removenum = nums[i-k+1];
-                hmap.put(removenum, hmap.get(removenum)-1);
-                if(hmap.get(removenum)==0) hmap.remove(removenum);
-            }
-
+        int[] result = new int[n-k+1];
+        for(int i =0; i<result.length;i++){
+            result[i] = calculate(nums,i,i+k-1,x);
         }
-        return ans;
+        return result;
     }
-
-    int getSum(int x) {
-        int sum = 0;
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> {
-            {
-                int f1 = hmap.get(a);
-                int f2 = hmap.get(b);
-                if(f1==f2) 
-                    return b-a;
-                return f2-f1;
+    public int calculate(int[] nums, int s, int e, int x){
+        int maxi = 50;
+        int[] freq = new int[maxi+1];
+        int total =0;
+        int d = 0;
+        for(int i =s;i<=e;i++){
+            int num = nums[i];
+            total += num;
+            if(freq[num] == 0){
+                d++;
             }
-        });
-
-        for(int key : hmap.keySet()) {
-            pq.offer(key); 
+            freq[num]++;
         }
-
-        while(!pq.isEmpty() && x>0) {
-            int top = pq.remove();
-            sum += top*hmap.get(top);
-            x--;
+        if(d < x){
+            return total;
         }
-        return sum;
+        int result =0;
+        for(int f = 0; f<x; f++){
+            int bestN =-1;
+                int bestF = -1;
+            for(int j = maxi; j>=1; j--){
+                if(freq[j] > bestF){
+                    bestF = freq[j];
+                    bestN = j;
+                }
+
+            }
+            if(bestF != -1){
+                result += bestF * bestN;
+                freq[bestN] = 0;
+            }
+        }
+        return result;
     }
 }
