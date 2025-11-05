@@ -32,20 +32,16 @@ class Solution {
             Pair c = q.poll();
             long dis = c.lp;
             int node = c.lo;
-            if(dis > dist[node]){
-                continue;
-            }
-            
             for(int[] f : as.get(node)){
                 int adjN = f[0];
                 int ed = f[1];
-                long aa = ed + dis;
-                if(dist[adjN] > aa){
-                    dist[adjN] = aa;
+                long rr = ed + dis;
+                if(dist[adjN] > rr){
+                    dist[adjN] = rr;
                     ways[adjN] = ways[node];
-                    q.offer(new Pair(aa,adjN));
+                    q.offer(new Pair(rr,adjN));
                 }
-                else if(dist[adjN] == ed + dis){
+                else if(dist[adjN] == rr){
                     ways[adjN] = (int)(ways[node] + (long)ways[adjN]) % mid;
                 }
             }
