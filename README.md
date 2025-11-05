@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Harsimar8/Leet_Code/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Harsimar8/Leet_Code/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/Harsimar8/Leet_Code/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/Harsimar8/Leet_Code/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Harsimar8/Leet_Code/tree/master/0326-power-of-three) |
@@ -553,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/Harsimar8/Leet_Code/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsimar8/Leet_Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0152-maximum-product-subarray) |
@@ -683,4 +685,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Harsimar8/Leet_Code/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
