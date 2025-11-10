@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Harsimar8/Leet_Code/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
+| [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Harsimar8/Leet_Code/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2047-find-a-peak-element-ii) |
+| [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Bit Manipulation
 |  |
@@ -600,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Harsimar8/Leet_Code/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Union Find
 |  |
