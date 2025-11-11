@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
+| [0057-insert-interval](https://github.com/Harsimar8/Leet_Code/tree/master/0057-insert-interval) |
 | [0059-spiral-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0059-spiral-matrix-ii) |
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Harsimar8/Leet_Code/tree/master/0075-sort-colors) |
