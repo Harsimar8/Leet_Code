@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/Harsimar8/Leet_Code/tree/master/0057-insert-interval) |
 | [0059-spiral-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0059-spiral-matrix-ii) |
+| [0063-unique-paths-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Harsimar8/Leet_Code/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -463,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Harsimar8/Leet_Code/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0059-spiral-matrix-ii) |
+| [0063-unique-paths-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Harsimar8/Leet_Code/tree/master/0130-surrounded-regions) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
@@ -578,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Harsimar8/Leet_Code/tree/master/0055-jump-game) |
+| [0063-unique-paths-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Harsimar8/Leet_Code/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Harsimar8/Leet_Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0124-binary-tree-maximum-path-sum) |
