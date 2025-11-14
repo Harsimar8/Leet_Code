@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
+| [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -439,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Harsimar8/Leet_Code/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Harsimar8/Leet_Code/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Interactive
@@ -482,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Harsimar8/Leet_Code/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Harsimar8/Leet_Code/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
+| [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
 ## Simulation
 |  |
