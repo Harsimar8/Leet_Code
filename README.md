@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Harsimar8/Leet_Code/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2470-removing-stars-from-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/2470-removing-stars-from-a-string) |
+| [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Harsimar8/Leet_Code/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Harsimar8/Leet_Code/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Sliding Window
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Harsimar8/Leet_Code/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Harsimar8/Leet_Code/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Harsimar8/Leet_Code/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
@@ -729,6 +731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
+| [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Harsimar8/Leet_Code/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 ## Memoization
 |  |
 | ------- |
