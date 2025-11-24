@@ -16,7 +16,7 @@ class Solution {
     public int removeStones(int[][] stones) {
         DSU dsu = new DSU();
         for(int[] stone : stones){
-            dsu.union(stone[0],stone[1] + 10001);
+            dsu.union(stone[0],stone[1] + 100001);
         }
         Set<Integer> comp = new HashSet<>();
         for(int[] st : stones){
