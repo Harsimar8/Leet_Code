@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Harsimar8/Leet_Code/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/Harsimar8/Leet_Code/tree/master/0940-fruit-into-baskets) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0966-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -565,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0827-making-a-large-island) |
 | [0854-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -674,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/Harsimar8/Leet_Code/tree/master/0801-is-graph-bipartite) |
 | [0827-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0827-making-a-large-island) |
 | [0854-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0854-making-a-large-island) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
@@ -736,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Harsimar8/Leet_Code/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Harsimar8/Leet_Code/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Harsimar8/Leet_Code/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## Combinatorics
