@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0967-minimum-falling-path-sum) |
 | [0978-valid-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0978-valid-mountain-array) |
 | [1036-rotting-oranges](https://github.com/Harsimar8/Leet_Code/tree/master/1036-rotting-oranges) |
+| [1046-last-stone-weight](https://github.com/Harsimar8/Leet_Code/tree/master/1046-last-stone-weight) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/Harsimar8/Leet_Code/tree/master/1111-minimum-score-triangulation-of-polygon) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0407-trapping-rain-water-ii) |
 | [0621-task-scheduler](https://github.com/Harsimar8/Leet_Code/tree/master/0621-task-scheduler) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1046-last-stone-weight](https://github.com/Harsimar8/Leet_Code/tree/master/1046-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
