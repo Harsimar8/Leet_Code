@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2384-root-equals-sum-of-children](https://github.com/Harsimar8/Leet_Code/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Harsimar8/Leet_Code/tree/master/2872-maximum-number-of-k-divisible-components) |
 ## Binary Tree
 |  |
 | ------- |
@@ -582,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Harsimar8/Leet_Code/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
