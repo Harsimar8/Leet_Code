@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0516-longest-palindromic-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0812-rotate-string](https://github.com/Harsimar8/Leet_Code/tree/master/0812-rotate-string) |
+| [1092-shortest-common-supersequence](https://github.com/Harsimar8/Leet_Code/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -667,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-minimum-falling-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/Harsimar8/Leet_Code/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0967-minimum-falling-path-sum) |
+| [1092-shortest-common-supersequence](https://github.com/Harsimar8/Leet_Code/tree/master/1092-shortest-common-supersequence) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/Harsimar8/Leet_Code/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1143-longest-common-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/1143-longest-common-subsequence) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
