@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/Harsimar8/Leet_Code/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
+| [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Harsimar8/Leet_Code/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -541,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Harsimar8/Leet_Code/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Harsimar8/Leet_Code/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
@@ -603,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Harsimar8/Leet_Code/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -634,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Harsimar8/Leet_Code/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
@@ -726,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0854-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsimar8/Leet_Code/tree/master/1584-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
