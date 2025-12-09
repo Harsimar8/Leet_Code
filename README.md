@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Harsimar8/Leet_Code/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1547-destination-city](https://github.com/Harsimar8/Leet_Code/tree/master/1547-destination-city) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Harsimar8/Leet_Code/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/Harsimar8/Leet_Code/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsimar8/Leet_Code/tree/master/1584-min-cost-to-connect-all-points) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Harsimar8/Leet_Code/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Harsimar8/Leet_Code/tree/master/0621-task-scheduler) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Harsimar8/Leet_Code/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
@@ -687,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Harsimar8/Leet_Code/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/Harsimar8/Leet_Code/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Harsimar8/Leet_Code/tree/master/2090-number-of-ways-to-arrive-at-destination) |
