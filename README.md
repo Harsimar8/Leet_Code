@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Harsimar8/Leet_Code/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/Harsimar8/Leet_Code/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3606-coupon-code-validator](https://github.com/Harsimar8/Leet_Code/tree/master/3606-coupon-code-validator) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Harsimar8/Leet_Code/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## String
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2470-removing-stars-from-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/2470-removing-stars-from-a-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Harsimar8/Leet_Code/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Harsimar8/Leet_Code/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3606-coupon-code-validator](https://github.com/Harsimar8/Leet_Code/tree/master/3606-coupon-code-validator) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Sliding Window
 |  |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Harsimar8/Leet_Code/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/Harsimar8/Leet_Code/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3606-coupon-code-validator](https://github.com/Harsimar8/Leet_Code/tree/master/3606-coupon-code-validator) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Harsimar8/Leet_Code/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Harsimar8/Leet_Code/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Harsimar8/Leet_Code/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -434,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
+| [3606-coupon-code-validator](https://github.com/Harsimar8/Leet_Code/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Harsimar8/Leet_Code/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Two Pointers
