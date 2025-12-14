@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Harsimar8/Leet_Code/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Harsimar8/Leet_Code/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/Harsimar8/Leet_Code/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0126-word-ladder-ii) |
@@ -670,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Harsimar8/Leet_Code/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0053-maximum-subarray) |
@@ -795,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Harsimar8/Leet_Code/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/Harsimar8/Leet_Code/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Harsimar8/Leet_Code/tree/master/0046-permutations) |
