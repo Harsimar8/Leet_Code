@@ -1,32 +1,23 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        
-        int r= image.length;
-        int c = image[0].length;
-        if(sr<0 || sr >= r || sc< 0 || sc>=c){
-            return image;
-        }
-        int original = image[sr][sc];
-        if(original == color){
-            return image ;
-        }
-        dfs(image, sr, sc,original, color, r,c);
+        int m = image.length;
+        int n = image[0].length;
+        int old = image[sr][sc];
+        helper(image,sr,sc,old,color, m,n);
         return image;
     }
-    public void dfs(int[][] image, int sr, int sc, int original, int newC, int r, int c){
-        
-        if(sr<0 || sr >= r || sc< 0 || sc>=c){
+    public void helper(int[][] image, int i, int j, int oldcolor ,int newcolor, int m , int n){
+        if(i <0 || j <0 || i >= m || j >= n || image[i][j] == newcolor){
             return;
         }
-        int right =image[sr][sc];
         
-        if(right == newC || original != right ){
+        if(image[i][j] != oldcolor){
             return;
         }
-        image[sr][sc] = newC;
-        dfs(image, sr-1,sc,original, newC, r, c);
-        dfs(image, sr+1,sc,original, newC, r, c);
-        dfs(image, sr,sc-1,original, newC, r, c);
-        dfs(image, sr,sc+1,original, newC, r, c);
+        image[i][j] = newcolor;
+        helper(image,i+1,j,oldcolor,newcolor,m,n);
+        helper(image,i-1,j,oldcolor,newcolor,m,n);
+        helper(image,i,j+1,oldcolor,newcolor,m,n);
+        helper(image,i,j-1,oldcolor,newcolor,m,n);
     }
 }
