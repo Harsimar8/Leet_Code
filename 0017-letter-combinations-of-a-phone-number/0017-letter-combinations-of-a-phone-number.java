@@ -1,6 +1,5 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
-        List<String> ans = new ArrayList<>();
         HashMap<Character,String> mpp = new HashMap<>();
         mpp.put('2',"abc");
         mpp.put('3',"def");
@@ -10,19 +9,22 @@ class Solution {
         mpp.put('7',"pqrs");
         mpp.put('8',"tuv");
         mpp.put('9',"wxyz");
-
+        List<String> ans = new ArrayList<>();
         ans.add("");
         char[] arr = digits.toCharArray();
-        for(char digit : arr){
-            String letter = mpp.get(digit);
+        for(char c : arr){
+            String ff = mpp.get(c);
             List<String> temp = new ArrayList<>();
-            for(String s : ans){
-                for(char c : letter.toCharArray()){
-                    temp.add(s + c);
+            for(char bb : ff.toCharArray()){
+                
+                for(String ss : ans){
+                    temp.add(ss + bb);
                 }
+                
             }
-            ans = temp;
-        } 
+            ans  = temp;
+            
+        }  
         return ans;
     }
 }
