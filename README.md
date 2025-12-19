@@ -437,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Harsimar8/Leet_Code/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
+| [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
@@ -623,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
+| [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Harsimar8/Leet_Code/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
@@ -655,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Harsimar8/Leet_Code/tree/master/1073-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
+| [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## Counting
@@ -753,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsimar8/Leet_Code/tree/master/1584-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
+| [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## String Matching
 |  |
@@ -820,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Harsimar8/Leet_Code/tree/master/1584-min-cost-to-connect-all-points) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Harsimar8/Leet_Code/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## Combinatorics
 |  |
