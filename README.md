@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3531-count-covered-buildings](https://github.com/Harsimar8/Leet_Code/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Harsimar8/Leet_Code/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/Harsimar8/Leet_Code/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3531-count-covered-buildings](https://github.com/Harsimar8/Leet_Code/tree/master/3531-count-covered-buildings) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Harsimar8/Leet_Code/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Harsimar8/Leet_Code/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Harsimar8/Leet_Code/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
+| [3531-count-covered-buildings](https://github.com/Harsimar8/Leet_Code/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/Harsimar8/Leet_Code/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Harsimar8/Leet_Code/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
