@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1185-find-in-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/1185-find-in-mountain-array) |
 | [1254-number-of-closed-islands](https://github.com/Harsimar8/Leet_Code/tree/master/1254-number-of-closed-islands) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Harsimar8/Leet_Code/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Harsimar8/Leet_Code/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Harsimar8/Leet_Code/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
