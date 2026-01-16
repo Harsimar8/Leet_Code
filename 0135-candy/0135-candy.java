@@ -11,11 +11,10 @@ class Solution {
         
         for(int i = n-2; i>=0; i--){
             if(arr[i] > arr[i+1]){
-                int val = ans[i+1] +1;
-                if(val > ans[i]){
+                int val = ans[i+1] + 1;
+                if(ans[i] < val){
                     ans[i] = val;
                 }
-                
             }
         }
         int total =0;
