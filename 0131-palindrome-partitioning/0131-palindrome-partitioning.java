@@ -1,29 +1,30 @@
 class Solution {
-    public boolean isPalin(String s, int start, int end){
-        while(start <= end){
-            if(s.charAt(start) != s.charAt(end)){
+    public List<List<String>> partition(String s) {
+        List<List<String>> ans = new ArrayList<>();
+        ArrayList<String> res = new ArrayList<>();
+        helper(ans,res, s,0);
+
+        return ans;
+    }
+    public boolean isPalin(String s, int left , int right){
+        while(left <= right){
+            if(s.charAt(left) != s.charAt(right)){
                 return false;
             }
-            start++;
-            end--;
+            left++;
+            right--;
         }
         return true;
     }
-    public List<List<String>> partition(String s) {
-        List<List<String>> ans = new ArrayList<>();
-        List<String> res = new ArrayList<>();
-        helper(0,s,ans,res);
-        return ans;
-    }
-    public void helper(int index , String s,List<List<String>> ans,List<String> res){
+    public void helper(List<List<String>> ans, List<String> res,String s, int index){
         if(index == s.length()){
             ans.add(new ArrayList<>(res));
             return;
         }
-        for(int i = index; i<s.length(); i++){
-            if(isPalin(s,index,i)){
-                res.add(s.substring(index, i +1));
-                helper(i+1,s,ans,res);
+        for(int k = index; k<s.length(); k++){
+            if(isPalin(s,index,k)){
+                res.add(s.substring(index,k+1));
+                helper(ans,res,s,k+1);
                 res.remove(res.size() -1);
             }
         }
