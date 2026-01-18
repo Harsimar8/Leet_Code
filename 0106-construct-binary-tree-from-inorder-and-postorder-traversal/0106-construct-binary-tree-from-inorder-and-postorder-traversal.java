@@ -13,29 +13,25 @@
  *     }
  * }
  */
+ import java.util.*;
 class Solution {
-    public HashMap<Integer, Integer> mpp = new HashMap<>();
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-        int in = inorder.length;
-        int post = postorder.length;
-        for(int i =0;i< in; i++){
-            mpp.put(inorder[i],i);
-        }
-        return build(inorder, 0, inorder.length -1, postorder, 0 , postorder.length -1);    
+    public TreeNode buildTree(int[] in, int[] post) {
+        HashMap<Integer,Integer> mpp = new HashMap<>();
+      for(int i =0; i<in.length ; i++){
+          mpp.put(in[i],i);
+      }
+      return build(in,post,0,post.length-1,0, in.length -1,mpp);
     }
-    public TreeNode build(int[] inorder, int inS , int inE , int[] postorder, int postS, int postE){
-        if(inS > inE || postS > postE ){
+
+   static TreeNode build(int[] in, int[] post, int preS, int preE, int inS, int inE,HashMap<Integer,Integer> mpp){
+        if(preS > preE || inS > inE){
             return null;
-
         }
-        int value = postorder[postE];
-        TreeNode root = new TreeNode(value);
-        int inIndex = mpp.get(root.val);
-        int left = inIndex - inS;
-        root.left = build(inorder, inS , inIndex -1,  postorder, postS , postS + left -1);
-        root.right = build(inorder, inIndex +1, inE, postorder, postS + left, postE - 1);
-        return root;
+        int inroot = mpp.get(post[preE]);
+        TreeNode root = new TreeNode(post[preE]);
+        int nums = inroot - inS;
+        root.left = build(in,post,preS, preS + nums -1, inS, inroot - 1,mpp);
+        root.right = build(in,post,preS + nums , preE - 1,inroot +1, inE, mpp);
+        return root;    
     }
-
-
 }
