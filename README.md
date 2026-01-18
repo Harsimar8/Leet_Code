@@ -372,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/Harsimar8/Leet_Code/tree/master/1642-water-bottles) |
 | [1925-count-square-sum-triples](https://github.com/Harsimar8/Leet_Code/tree/master/1925-count-square-sum-triples) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Harsimar8/Leet_Code/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+| [2165-smallest-value-of-the-rearranged-number](https://github.com/Harsimar8/Leet_Code/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Harsimar8/Leet_Code/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Harsimar8/Leet_Code/tree/master/2288-count-operations-to-obtain-zero) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Harsimar8/Leet_Code/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
+| [2165-smallest-value-of-the-rearranged-number](https://github.com/Harsimar8/Leet_Code/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
