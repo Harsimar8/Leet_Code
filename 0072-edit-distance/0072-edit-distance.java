@@ -1,35 +1,32 @@
 class Solution {
-    Integer[][] memo;
-
     public int minDistance(String word1, String word2) {
-        memo = new Integer[word1.length() + 1][word2.length() + 1];
-        return solve(word1, word2, word1.length(), word2.length());
+        int m = word1.length();
+        int n = word2.length();
+        int[][] dp = new int[m+1][n+1];
+        for(int[] row : dp){
+            Arrays.fill(row, -1);
+        }
+        return helper(word1, word2,m,n,dp);
     }
-
-    private int solve(String s1, String s2, int m, int n) {
-        // Base cases: if one string is exhausted, return the length of the other
-        
-        if(m == 0){
-            return n;
+    public int helper(String word1, String word2, int i , int j,int[][]dp){
+        if(i == 0){
+            return j;
         }
-        if(n == 0){
-            return m;
+        if(j == 0){
+            return i;
         }
-        if(memo[m][n] != null){
-            return memo[m][n];
+        if(dp[i][j] != -1){
+            return dp[i][j];
         }
-        int result;
-        if(s1.charAt(m-1) == s2.charAt(n-1)){
-            result = solve(s1,s2,m-1,n-1);
+        if(word1.charAt(i-1) == word2.charAt(j-1)){
+            return dp[i][j] = helper(word1, word2, i-1,j-1,dp);
         }
         else{
-            int replace = solve(s1,s2,m-1,n-1);
-            int delete = solve(s1,s2,m-1,n);
-            int insert = solve(s1,s2,m,n-1);
-
-            result = 1 + Math.min(replace, Math.min(delete, insert));
+            int one = helper(word1,word2, i-1, j-1,dp);
+            int two = helper(word1,word2, i, j-1,dp);
+            int three = helper(word1,word2, i-1, j,dp);
+        
+        return dp[i][j] = 1 + Math.min(one, Math.min(two, three));
         }
-
-        return memo[m][n] = result;
     }
 }
