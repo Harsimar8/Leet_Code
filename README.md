@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Harsimar8/Leet_Code/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0518-coin-change-ii) |
@@ -710,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0410-split-array-largest-sum) |
 | [0474-ones-and-zeroes](https://github.com/Harsimar8/Leet_Code/tree/master/0474-ones-and-zeroes) |
 | [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
+| [0494-target-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0518-coin-change-ii) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -831,6 +833,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/Harsimar8/Leet_Code/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0140-word-break-ii) |
+| [0494-target-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0494-target-sum) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Graph
 |  |
