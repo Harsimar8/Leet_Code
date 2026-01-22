@@ -6,7 +6,7 @@ class Solution {
             total += nums[i];
         }
         int k = target + total;
-        if(k < 0 || k%2 !=0){
+        if(k <0 || k%2 !=0){
             return 0;
         }
         int res = k/2;
@@ -17,14 +17,20 @@ class Solution {
         return helper(nums, res,dp,n-1);
     }
     public int helper(int[] nums, int res, int[][] dp, int i){
-         if(i < 0){
-            if(res == 0){
-                return 1;
-            }
-            else{
-                return 0;
-            }
-        }
+        //  if(i < 0){
+        //     if(res == 0){
+        //         return 1;
+        //     }
+        //     else{
+        //         return 0;
+        //     }
+        // }
+        if (i == 0) {
+    if (res == 0 && nums[0] == 0) return 2;
+    if (res == 0 || nums[0] == res) return 1;
+    return 0;
+}
+
        
        if(dp[i][res] != -1){
         return dp[i][res];
