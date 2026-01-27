@@ -8,42 +8,48 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || k == 1) return head;
 
         ListNode dummy = new ListNode(0);
         dummy.next = head;
-
-        ListNode prevE = dummy;
+        ListNode prevGroup = dummy;
 
         while (true) {
-            ListNode kth = getN(prevE, k);
-            if (kth == null) break;
-
-            ListNode groupStart = prevE.next;
-            ListNode nextGroupStart = kth.next;
-
-            ListNode prev = kth.next;
-            ListNode cur = groupStart;
-
-            while (cur != nextGroupStart) {
-                ListNode temp = cur.next;
-                cur.next = prev;
-                prev = cur;
-                cur = temp;
+            // 1️⃣ Find kth node
+            ListNode kth = prevGroup;
+            for (int i = 0; i < k && kth != null; i++) {
+                kth = kth.next;
             }
-            prevE.next = kth;
-            prevE = groupStart;
+            if (kth == null) break; // not enough nodes
+
+            // 2️⃣ Mark next group start
+            ListNode nextGroup = kth.next;
+            kth.next = null;
+
+            // 3️⃣ Reverse current group
+            ListNode groupStart = prevGroup.next;
+            ListNode newHead = reverse(groupStart);
+
+            // 4️⃣ Connect
+            prevGroup.next = newHead;
+            groupStart.next = nextGroup;
+
+            // 5️⃣ Move prevGroup
+            prevGroup = groupStart;
         }
 
         return dummy.next;
     }
-    private ListNode getN(ListNode cur, int k) {
-        while (cur != null && k > 0) {
-            cur = cur.next;
-            k--;
+    public ListNode reverse(ListNode temp){
+        ListNode cur = null;
+        ListNode ans = temp;
+        while(temp != null){
+            ListNode kk = temp.next;
+            temp.next = cur;
+            cur = temp;
+            temp = kk;
         }
         return cur;
     }
