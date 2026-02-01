@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
+| [1895-largest-magic-square](https://github.com/Harsimar8/Leet_Code/tree/master/1895-largest-magic-square) |
 | [2047-find-a-peak-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2047-find-a-peak-element-ii) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Harsimar8/Leet_Code/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Harsimar8/Leet_Code/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -541,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Harsimar8/Leet_Code/tree/master/1004-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Harsimar8/Leet_Code/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1895-largest-magic-square](https://github.com/Harsimar8/Leet_Code/tree/master/1895-largest-magic-square) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Harsimar8/Leet_Code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Harsimar8/Leet_Code/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -592,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Harsimar8/Leet_Code/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
+| [1895-largest-magic-square](https://github.com/Harsimar8/Leet_Code/tree/master/1895-largest-magic-square) |
 | [2047-find-a-peak-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2047-find-a-peak-element-ii) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Harsimar8/Leet_Code/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Harsimar8/Leet_Code/tree/master/2343-count-unguarded-cells-in-the-grid) |
