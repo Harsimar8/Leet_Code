@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Harsimar8/Leet_Code/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Harsimar8/Leet_Code/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Harsimar8/Leet_Code/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3637-trionic-array-i](https://github.com/Harsimar8/Leet_Code/tree/master/3637-trionic-array-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## Divide and Conquer
