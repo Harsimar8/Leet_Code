@@ -1,39 +1,30 @@
 class Solution {
     public boolean isTrionic(int[] nums) {
         int n = nums.length;
-        if(n < 4){
-            return false;
-        }
-        for(int right =1; right < n-1; right++){
-            for(int left =n-2; left>=2;left--){
-                if( right < left && strI(nums,0, right) == true && strD(nums,right, left) == true 
-            && strI(nums, left, n-1) == true){
-                return true;
+        int peak = n-1;
+        int valley= 0;
+        for(int i =0; i<n-1; i++){
+            if(peak == n-1 && nums[i] >= nums[i+1]){
+                peak =i;
             }
+            if(valley == 0 && nums[n-i-1] <= nums[n - i -2]){
+                valley = n-i-1;
+            }
+            if(peak < valley){
+                return strD(nums, peak, valley);
             }
         }
-        
         return false;
     }
-    public boolean strI(int[] arr, int s, int e){
-        int n = arr.length;
-        for(int i =s; i<e; i++){
-            if(arr[i] >= arr[i+1]){
+    public boolean strD(int[] nums, int a, int b){
+        if(a == 0 || b == nums.length-1){
+            return false;
+        }
+        for(int i =a; i<b; i++){
+            if(nums[i] <= nums[i+1]){
                 return false;
             }
         }
         return true;
     }
-
-    public boolean strD(int[] arr, int s, int e){
-        int n = arr.length;
-        for(int j = s; j<e; j++){
-            if(arr[j] <= arr[j+1]){
-                return false;
-            }
-        }
-        return true;
-    }
-
-
 }
