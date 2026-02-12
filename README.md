@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0827-making-a-large-island) |
 | [0854-making-a-large-island](https://github.com/Harsimar8/Leet_Code/tree/master/0854-making-a-large-island) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0871-minimum-number-of-refueling-stops) |
+| [0875-koko-eating-bananas](https://github.com/Harsimar8/Leet_Code/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/Harsimar8/Leet_Code/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0898-transpose-matrix) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0875-koko-eating-bananas](https://github.com/Harsimar8/Leet_Code/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Harsimar8/Leet_Code/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Harsimar8/Leet_Code/tree/master/1004-max-consecutive-ones-iii) |
