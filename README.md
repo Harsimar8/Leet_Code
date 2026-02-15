@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Harsimar8/Leet_Code/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/Harsimar8/Leet_Code/tree/master/0037-sudoku-solver) |
+| [0076-minimum-window-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0126-word-ladder-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0126-word-ladder-ii) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/Harsimar8/Leet_Code/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Harsimar8/Leet_Code/tree/master/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Harsimar8/Leet_Code/tree/master/0127-word-ladder) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0076-minimum-window-substring) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Harsimar8/Leet_Code/tree/master/0424-longest-repeating-character-replacement) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0718-maximum-length-of-repeated-subarray) |
