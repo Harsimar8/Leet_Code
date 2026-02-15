@@ -981,4 +981,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Harsimar8/Leet_Code/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Harsimar8/Leet_Code/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
