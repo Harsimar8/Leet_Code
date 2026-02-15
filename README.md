@@ -984,5 +984,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0175-combine-two-tables](https://github.com/Harsimar8/Leet_Code/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/Harsimar8/Leet_Code/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
