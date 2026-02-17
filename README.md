@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/Harsimar8/Leet_Code/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0967-minimum-falling-path-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [0978-valid-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0978-valid-mountain-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/Harsimar8/Leet_Code/tree/master/1004-max-consecutive-ones-iii) |
 | [1036-rotting-oranges](https://github.com/Harsimar8/Leet_Code/tree/master/1036-rotting-oranges) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [3719-longest-balanced-subarray-i](https://github.com/Harsimar8/Leet_Code/tree/master/3719-longest-balanced-subarray-i) |
 ## Tree
 |  |
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/Harsimar8/Leet_Code/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 | [0738-monotone-increasing-digits](https://github.com/Harsimar8/Leet_Code/tree/master/0738-monotone-increasing-digits) |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/Harsimar8/Leet_Code/tree/master/1513-number-of-substrings-with-only-1s) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Harsimar8/Leet_Code/tree/master/1523-count-odd-numbers-in-an-interval-range) |
@@ -484,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Harsimar8/Leet_Code/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Harsimar8/Leet_Code/tree/master/0621-task-scheduler) |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Harsimar8/Leet_Code/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
@@ -593,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Harsimar8/Leet_Code/tree/master/0621-task-scheduler) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0871-minimum-number-of-refueling-stops) |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Harsimar8/Leet_Code/tree/master/1046-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/Harsimar8/Leet_Code/tree/master/1753-path-with-minimum-effort) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
@@ -978,6 +983,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Harsimar8/Leet_Code/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Graph Theory
 |  |
@@ -989,4 +995,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0175-combine-two-tables](https://github.com/Harsimar8/Leet_Code/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/Harsimar8/Leet_Code/tree/master/0176-second-highest-salary) |
 | [0177-nth-highest-salary](https://github.com/Harsimar8/Leet_Code/tree/master/0177-nth-highest-salary) |
+## Quickselect
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
