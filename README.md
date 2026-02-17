@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Harsimar8/Leet_Code/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0447-number-of-boomerangs](https://github.com/Harsimar8/Leet_Code/tree/master/0447-number-of-boomerangs) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Harsimar8/Leet_Code/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0410-split-array-largest-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Harsimar8/Leet_Code/tree/master/0417-pacific-atlantic-water-flow) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0447-number-of-boomerangs](https://github.com/Harsimar8/Leet_Code/tree/master/0447-number-of-boomerangs) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0474-ones-and-zeroes](https://github.com/Harsimar8/Leet_Code/tree/master/0474-ones-and-zeroes) |
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Harsimar8/Leet_Code/tree/master/0326-power-of-three) |
+| [0447-number-of-boomerangs](https://github.com/Harsimar8/Leet_Code/tree/master/0447-number-of-boomerangs) |
 | [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
 | [0738-monotone-increasing-digits](https://github.com/Harsimar8/Leet_Code/tree/master/0738-monotone-increasing-digits) |
 | [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
