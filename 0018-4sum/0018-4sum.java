@@ -1,50 +1,41 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        List<List<Integer>> list = new ArrayList<>();
         int n = nums.length;
-        
-                    
         for(int i =0; i<n; i++){
             if(i > 0 && nums[i] == nums[i-1]){
-                        continue;
+                continue;
             }
-            for(int j =i+1; j<n; j++){
-            if(j > i+1 && nums[j] == nums[j-1]){
-                        continue;
-            }
-                int l = n-1;
-                for(int k= j+1; k<n; k++){
-                    
-                    if(k>=l){
-                        break;
+            for(int j= i+1; j<n; j++){
+                if(j > i+1 && nums[j] == nums[j-1]){
+                    continue;
+                }
+                int left =j+1;
+                int right = n-1;
+                while(left < right){
+                    long val = (long)nums[i] + nums[j] + nums[left] + nums[right];
+                    if(val == target){
+                        res.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
+
+                        while(left < right && nums[left] == nums[left+1]){
+                            left++;
+                        }
+                        while(left < right && nums[right] == nums[right -1]){
+                            right--;
+                        }
+                        left++;
+                        right--;
                     }
-                    if(k > j+1 && nums[k] == nums[k-1]){
-                        continue;
+                    else if(val < target){
+                        left++;
                     }
-                    
-                    List<Integer> sublist = new ArrayList<>();
-                    
-                        long sum = (long)nums[i] + nums[j] + nums[k] + nums[l];
-                        if( sum == target){
-                        sublist.add(nums[i]);
-                        sublist.add(nums[j]);
-                        sublist.add(nums[k]);
-                        sublist.add(nums[l]);
-                        list.add(sublist);
-                        l--;
-                    
-                        
+                    else{
+                        right--;
                     }
-                    else if(nums[i] + nums[j] + nums[k] + nums[l] > target){
-                        l--;
-                        k--;
-                    }
-                    
-                   
                 }
             }
         }
-        return list;
+        return res;
     }
 }
