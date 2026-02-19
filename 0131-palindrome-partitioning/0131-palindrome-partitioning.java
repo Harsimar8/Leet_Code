@@ -1,13 +1,29 @@
 class Solution {
     public List<List<String>> partition(String s) {
-        List<List<String>> ans = new ArrayList<>();
-        ArrayList<String> res = new ArrayList<>();
-        helper(ans,res, s,0);
-
-        return ans;
+        List<List<String>> res = new ArrayList<>();
+        List<String> ans = new ArrayList<>();
+        helper(s, res, ans, 0);
+        return res;
     }
-    public boolean isPalin(String s, int left , int right){
-        while(left <= right){
+    public void helper(String s, List<List<String>> res, List<String> ans,  int i){
+        if(i == s.length()){
+            res.add(new ArrayList<>(ans));
+            
+            return;
+        }
+        for(int j =i; j<s.length(); j++){
+            if(isPalin(s,i,j)){
+            ans.add(s.substring(i,j+1));
+            helper(s,res,ans,j+1);
+            ans.remove(ans.size() -1);
+            }
+        }
+    }
+    public boolean isPalin(String s, int left, int right){
+        if(s.length() == 1){
+            return true;
+        }
+        while(left < right){
             if(s.charAt(left) != s.charAt(right)){
                 return false;
             }
@@ -15,18 +31,5 @@ class Solution {
             right--;
         }
         return true;
-    }
-    public void helper(List<List<String>> ans, List<String> res,String s, int index){
-        if(index == s.length()){
-            ans.add(new ArrayList<>(res));
-            return;
-        }
-        for(int k = index; k<s.length(); k++){
-            if(isPalin(s,index,k)){
-                res.add(s.substring(index,k+1));
-                helper(ans,res,s,k+1);
-                res.remove(res.size() -1);
-            }
-        }
     }
 }
