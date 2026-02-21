@@ -1015,6 +1015,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0197-rising-temperature](https://github.com/Harsimar8/Leet_Code/tree/master/0197-rising-temperature) |
 | [0511-game-play-analysis-i](https://github.com/Harsimar8/Leet_Code/tree/master/0511-game-play-analysis-i) |
 | [1667-fix-names-in-a-table](https://github.com/Harsimar8/Leet_Code/tree/master/1667-fix-names-in-a-table) |
+| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Harsimar8/Leet_Code/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 | [1978-employees-whose-manager-left-the-company](https://github.com/Harsimar8/Leet_Code/tree/master/1978-employees-whose-manager-left-the-company) |
 ## Quickselect
 |  |
