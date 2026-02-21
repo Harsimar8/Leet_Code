@@ -9,10 +9,10 @@ class Solution {
     }
     public void helper(Set<List<Integer>> st,List<List<Integer>> res, List<Integer> ans, int[] nums, int sum, int i){
         if(sum == 0){
-            if(!st.contains(ans)){
+            
             res.add(new ArrayList<>(ans));
-            st.add(ans);
-            }
+            
+            
             return;
         }
         for(int j =i; j<nums.length; j++){
