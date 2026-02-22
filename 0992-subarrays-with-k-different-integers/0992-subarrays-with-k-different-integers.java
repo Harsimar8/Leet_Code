@@ -1,27 +1,27 @@
 class Solution {
-        public int subarraysWithKDistinct(int[] A, int K) {
-            return atMost(A,K) - atMost(A,K-1);
+    public int subarraysWithKDistinct(int[] nums, int k) {
+        int n = nums.length;
+        return atmost(nums,k) - atmost(nums,k-1);
     }
-    int atMost(int[] A, int k) {
+    public int atmost(int[] nums, int k){
+        HashMap<Integer,Integer> mpp = new HashMap<>();
         int i =0;
         int res =0;
-        Map<Integer,Integer> count = new HashMap<>();
-        for(int j =0;j<A.length; j++){
-            if(count.getOrDefault(A[j],0) == 0){
+        int n = nums.length;
+        for(int j =0; j<n; j++){
+            if(mpp.getOrDefault(nums[j],0) == 0){
                 k--;
             }
-                count.put(A[j], count.getOrDefault(A[j],0)+1);
-            
-                while(k < 0){
-                     count.put(A[i], count.get(A[i])-1);
-                    if(count.get(A[i])== 0){
-                        k++;
-                    }
-                    i++;
+            mpp.put(nums[j], mpp.getOrDefault(nums[j],0)+1);
+            while( k < 0){
+                mpp.put(nums[i], mpp.get(nums[i]) -1);
+                if(mpp.get(nums[i]) == 0){
+                    k++;
                 }
-                res += j - i +1;
+                i++;
             }
-        
+            res += j- i+1;
+        }
         return res;
     }
 }
