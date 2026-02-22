@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/Harsimar8/Leet_Code/tree/master/0940-fruit-into-baskets) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Harsimar8/Leet_Code/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0966-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0966-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Harsimar8/Leet_Code/tree/master/0992-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1547-destination-city](https://github.com/Harsimar8/Leet_Code/tree/master/1547-destination-city) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/Harsimar8/Leet_Code/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0966-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Harsimar8/Leet_Code/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Harsimar8/Leet_Code/tree/master/1004-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Harsimar8/Leet_Code/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Harsimar8/Leet_Code/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [0978-valid-mountain-array](https://github.com/Harsimar8/Leet_Code/tree/master/0978-valid-mountain-array) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Harsimar8/Leet_Code/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Harsimar8/Leet_Code/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Harsimar8/Leet_Code/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1036-rotting-oranges](https://github.com/Harsimar8/Leet_Code/tree/master/1036-rotting-oranges) |
@@ -751,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Harsimar8/Leet_Code/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Harsimar8/Leet_Code/tree/master/0621-task-scheduler) |
+| [0992-subarrays-with-k-different-integers](https://github.com/Harsimar8/Leet_Code/tree/master/0992-subarrays-with-k-different-integers) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Harsimar8/Leet_Code/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
