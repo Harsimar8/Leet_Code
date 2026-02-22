@@ -4,33 +4,32 @@ class Solution {
         for(char c : t.toCharArray()){
             freq[c]++;
         }
-        int right =0;
         int left =0;
+        int miniLen = Integer.MAX_VALUE;
+        int right =0;
+        int n = s.length();
+        int req = t.length();
         int start =0;
-        int minLen  = Integer.MAX_VALUE;
-        int required = t.length();
-        while(right < s.length()){
-            char c = s.charAt(right);
-            if(freq[c] > 0){
-                required--;
+        while(right < n){
+            char cc = s.charAt(right);
+            if(freq[cc] > 0){
+                req--;
             }
-            freq[c]--;
             right++;
-        
-        while(required == 0){
-            if(right - left < minLen){
-                minLen = right - left;
-                start = left;
+            freq[cc]--;
+            while(req == 0){
+                if(right - left < miniLen){
+                    miniLen = right - left;
+                    start =left;
+                }
+                char val = s.charAt(left);
+                freq[val]++;
+                if(freq[val] > 0){
+                    req++;
+                }
+                left++;
             }
-            char leftC = s.charAt(left);
-            freq[leftC]++;
-            if(freq[leftC] > 0){
-                required++;
-            }
-            
-            left++;
         }
-    }
-        return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
+        return miniLen == Integer.MAX_VALUE ? "" : s.substring(start, start + miniLen);
     }
 }
