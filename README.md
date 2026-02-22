@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/Harsimar8/Leet_Code/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Harsimar8/Leet_Code/tree/master/0424-longest-repeating-character-replacement) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0213-house-robber-ii) |
 | [0229-majority-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Harsimar8/Leet_Code/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/Harsimar8/Leet_Code/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
@@ -604,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Harsimar8/Leet_Code/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/Harsimar8/Leet_Code/tree/master/0239-sliding-window-maximum) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0407-trapping-rain-water-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Harsimar8/Leet_Code/tree/master/0451-sort-characters-by-frequency) |
@@ -983,10 +986,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Harsimar8/Leet_Code/tree/master/0239-sliding-window-maximum) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Harsimar8/Leet_Code/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Harsimar8/Leet_Code/tree/master/0239-sliding-window-maximum) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Harsimar8/Leet_Code/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Brainteaser
 |  |
