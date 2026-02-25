@@ -1,29 +1,48 @@
 class Solution {
     public int maximumXorProduct(long a, long b, int n) {
-        int mod = 1000000007;
-        for (int i = n - 1; i >= 0; --i) {
-            long mask = (long) 1 << i;
-            if ((a & mask) != 0 && (b & mask) != 0) {
+        long mod = 1000000007L;
+        
+        long xXora = 0L;
+        long xXorb = 0L;
+
+// 49th bit to nth bit
+        for(int i = 49; i>=n; i--){
+
+            boolean a_ith_bit = ((a >> i) & 1L) > 0;  // finding the ith bit of a
+            boolean b_ith_bit = ((b >> i) & 1L) > 0; // finding the ith bit of b
+
+            if(a_ith_bit == true){    // ath_bit == 1
+                xXora = (xXora ^ (1L << i));
+            }
+            if(b_ith_bit == true){  // ath_bit == 1
+                xXorb = (xXorb ^ (1L << i));
+            }
+
+        }
+
+        // (n-1)th bit to 0th bit
+        for(int i = n-1; i>=0; i--){
+            boolean a_ith_bit = ((a >> i) & 1L) == 1L; // finding the ith bit of a
+            boolean b_ith_bit = ((b >> i) & 1L) == 1L; // finding the ith bit of b
+
+            if(a_ith_bit == b_ith_bit){
+                xXora = (xXora ^ (1L << i));
+                xXorb = (xXorb ^ (1L << i));
                 continue;
-            } else if ((a & mask) != 0) {
-                if (a > b) {
-                    a ^= mask;
-                    b |= mask;
-                }
-                continue;
-            } else if ((b & mask) != 0) {
-                if (a < b) {
-                    a |= mask;
-                    b ^= mask;
-                }
-            } else {
-                a |= mask;
-                b |= mask;
+            }
+            if(xXora > xXorb){
+                xXorb = (xXorb ^ (1l << i));
+            }
+            else{
+                xXora = (xXora ^ (1L << i));
             }
         }
-        a = a % mod;
-        b = b % mod;
-        return (int) ((1L * a * b) % mod);
+
+         xXora  = (xXora % mod);
+         xXorb  = (xXorb % mod);
+
+         return (int)((xXora * xXorb) % mod);
+
     }
 
 }
