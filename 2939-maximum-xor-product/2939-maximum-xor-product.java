@@ -1,48 +1,40 @@
 class Solution {
     public int maximumXorProduct(long a, long b, int n) {
         long mod = 1000000007L;
-        
-        long xXora = 0L;
-        long xXorb = 0L;
-
-// 49th bit to nth bit
+        long xa = 0L;
+        long xb = 0L;
         for(int i = 49; i>=n; i--){
+            boolean ath = ((a >> i) & 1L) > 0;
+            boolean bth = ((b >> i) & 1L) > 0;
 
-            boolean a_ith_bit = ((a >> i) & 1L) > 0;  // finding the ith bit of a
-            boolean b_ith_bit = ((b >> i) & 1L) > 0; // finding the ith bit of b
-
-            if(a_ith_bit == true){    // ath_bit == 1
-                xXora = (xXora ^ (1L << i));
+            if(ath == true){
+                xa = (xa ^ (1L << i));
             }
-            if(b_ith_bit == true){  // ath_bit == 1
-                xXorb = (xXorb ^ (1L << i));
+            if(bth == true){
+                xb = (xb ^ (1L << i));
             }
-
         }
 
-        // (n-1)th bit to 0th bit
         for(int i = n-1; i>=0; i--){
-            boolean a_ith_bit = ((a >> i) & 1L) == 1L; // finding the ith bit of a
-            boolean b_ith_bit = ((b >> i) & 1L) == 1L; // finding the ith bit of b
+            boolean ath = ((a >> i) & 1L) > 0;
+            boolean bth = ((b >> i) & 1L) > 0;
 
-            if(a_ith_bit == b_ith_bit){
-                xXora = (xXora ^ (1L << i));
-                xXorb = (xXorb ^ (1L << i));
+            if(ath == bth){
+                xa = (xa ^ (1L << i));
+                xb = (xb ^ (1L << i));
                 continue;
             }
-            if(xXora > xXorb){
-                xXorb = (xXorb ^ (1l << i));
+            else if(xa > xb){
+                 xb = (xb ^ (1L << i));
             }
             else{
-                xXora = (xXora ^ (1L << i));
+                xa = (xa ^ (1L << i));
             }
         }
 
-         xXora  = (xXora % mod);
-         xXorb  = (xXorb % mod);
+        xa  =(xa %mod);
+        xb = (xb % mod);
 
-         return (int)((xXora * xXorb) % mod);
-
+        return (int)((xa * xb)%mod);
     }
-
 }
