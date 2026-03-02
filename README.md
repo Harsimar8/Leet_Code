@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0516-longest-palindromic-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0812-rotate-string](https://github.com/Harsimar8/Leet_Code/tree/master/0812-rotate-string) |
+| [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
 | [1092-shortest-common-supersequence](https://github.com/Harsimar8/Leet_Code/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
 | [0943-sum-of-subarray-minimums](https://github.com/Harsimar8/Leet_Code/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -552,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Harsimar8/Leet_Code/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Harsimar8/Leet_Code/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Harsimar8/Leet_Code/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -671,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
 | [0898-transpose-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0898-transpose-matrix) |
 | [1642-water-bottles](https://github.com/Harsimar8/Leet_Code/tree/master/1642-water-bottles) |
 | [1920-build-array-from-permutation](https://github.com/Harsimar8/Leet_Code/tree/master/1920-build-array-from-permutation) |
