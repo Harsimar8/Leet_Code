@@ -40,7 +40,7 @@ class Solution {
             }
         }
         else{
-            if(i >=0 || j>=0){
+            if(i >=0 || j >=0){
                 return false;
             }
         }
