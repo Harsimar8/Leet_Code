@@ -1,28 +1,28 @@
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
-        HashMap<Integer,Integer> mpp = new HashMap<>();
-        int right =0;
-        int left =0;
-        int preSum  =0;
         int n = nums.length;
+        int right =0;
+        HashMap<Integer,Integer> mpp = new HashMap<>();
         mpp.put(0,-1);
+       
+        int preS =0;
         while(right < n){
-            preSum += nums[right];
+            preS += nums[right];
             if(k!=0){
-                preSum%=k;
+                preS%=k;
             }
-            if(mpp.containsKey(preSum)){
-                int ss = mpp.get(preSum);
+            if(mpp.containsKey(preS)){
+                int ss = mpp.get(preS);
+
                 if(right - ss >=2){
                     return true;
                 }
             }
+
             else{
-                mpp.put(preSum, right);
+                mpp.put(preS, right);
             }
             right++;
-
-
         }
         return false;
     }
