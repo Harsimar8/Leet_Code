@@ -1,29 +1,26 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-    Set<List<Integer>> st = new HashSet<>();
-        List<List<Integer>> ans = new ArrayList<>();
-        boolean[] visi = new boolean[nums.length];
-        List<Integer> cur = new ArrayList<>();
-        back(st,ans,nums,visi,cur);
-        for(List<Integer> a : st){
+        List<List<Integer>> res = new ArrayList<>();
+        int n = nums.length;
+        ArrayList<Integer> ans = new ArrayList<>();
+        for(int a : nums){
             ans.add(a);
         }
-        return ans;
+        helper(ans, res, n,0);
+        return res;
     }
-    public void back(Set<List<Integer>> st, List<List<Integer>> ans, int[] nums ,boolean[] visi,List<Integer> cur){
-        if(cur.size() == nums.length){
-            st.add(new ArrayList<>(cur));
+    public void helper(ArrayList<Integer> ans, List<List<Integer>> res, int n , int i){
+        if(i == ans.size()){
+            res.add(new ArrayList<>(ans));
             return;
         }
-        for(int i =0; i<nums.length; i++){
-            if(visi[i]){
-                continue;
-            }
-            visi[i] = true;
-            cur.add(nums[i]);
-            back(st,ans,nums,visi,cur);
-            visi[i] = false;
-            cur.remove(cur.size() -1);
+        for(int k =i; k<n; k++){
+            swap(ans,i,k);
+            helper(ans, res, n,i+1);
+            swap(ans, i,k);
         }
+    }
+    public void swap(List<Integer> nums, int i, int j){
+        Collections.swap(nums,i,j);
     }
 }
