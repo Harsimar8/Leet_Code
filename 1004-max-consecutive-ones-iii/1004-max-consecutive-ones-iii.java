@@ -6,18 +6,18 @@ class Solution {
        int p = 0;
        int n = nums.length;
        for(int right =0; right<n; right++){
+        
         if(nums[right] == 0){
-            p++;
             cnt++;
+            k--;
         }
-        else{
-            cnt++;
-        }
-        while(p>k){
+        while(k < 0){
             if(nums[left] == 0){
-                p--;
+               
+                cnt--;
+                k++;
             }
-            left++;
+             left++;
         }
         
         maxi = Math.max(maxi, right - left + 1);
