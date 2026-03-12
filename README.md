@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Harsimar8/Leet_Code/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0447-number-of-boomerangs](https://github.com/Harsimar8/Leet_Code/tree/master/0447-number-of-boomerangs) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0392-is-subsequence) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Harsimar8/Leet_Code/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Harsimar8/Leet_Code/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/Harsimar8/Leet_Code/tree/master/0451-sort-characters-by-frequency) |
 | [0474-ones-and-zeroes](https://github.com/Harsimar8/Leet_Code/tree/master/0474-ones-and-zeroes) |
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Harsimar8/Leet_Code/tree/master/0239-sliding-window-maximum) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Harsimar8/Leet_Code/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Harsimar8/Leet_Code/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0930-binary-subarrays-with-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/Harsimar8/Leet_Code/tree/master/0940-fruit-into-baskets) |
