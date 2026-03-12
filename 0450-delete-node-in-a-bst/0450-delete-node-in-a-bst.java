@@ -18,26 +18,29 @@ class Solution {
         if(root == null){
             return null;
         }
-        if(key > root.val){
-            root.right = deleteNode(root.right, key);
-        }
-        else if(key < root.val){
-            root.left = deleteNode(root.left,key);
-        }
-        else{
-            if(root.left == null){
-                return root.right;
+            if(key > root.val){
+               root.right = deleteNode(root.right,key);
             }
-            else if(root.right == null){
-                return root.left;
+            else if(key < root.val){
+                 root.left = deleteNode(root.left, key);
+                
             }
             else{
-                TreeNode suc = find(root.right);
-                root.val = suc.val;
-                root.right = deleteNode(root.right, suc.val);
-            }
+                if(root.left == null){
+                    return root.right;
+                }
+                else if(root.right == null){
+                    return root.left;
+                }
+                else{
+                    TreeNode succ = find(root.right);
+                    root.val = succ.val;
+                    root.right = deleteNode(root.right,succ.val);
+                    
+                }
+            
         }
-        return root;
+        return root; 
     }
     public TreeNode find(TreeNode node){
         while(node.left != null){
@@ -45,5 +48,4 @@ class Solution {
         }
         return node;
     }
-
 }
