@@ -4,17 +4,20 @@ class Solution {
         int suf = 0;
         int maxi = Integer.MIN_VALUE;
         int n = nums.length;
-        for(int i =0; i<n; i++){
-            if(pref < 0){
-                pref = 0;
+        int right =0;
+        int sum =0;
+        int left =0;
+        while(right < n){
+            sum += nums[right];
+             if(sum > maxi){
+            maxi = Math.max(sum, maxi);
             }
-            if(suf < 0){
-                suf = 0;
+            if(sum < 0){
+                sum = 0;
+                left = right + 1;
             }
-            pref += nums[i];
-            suf += nums[n-1-i];
-
-            maxi = Math.max(maxi, Math.max(pref, suf));
+           
+            right++;
         }
         return maxi;
     }
