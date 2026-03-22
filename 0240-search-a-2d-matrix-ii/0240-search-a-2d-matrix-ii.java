@@ -4,18 +4,18 @@ class Solution {
         int n = matrix[0].length;
         int r = 0;
         int c = n-1;
-        while( r < m && c >= 0 ){
-
-            if(target == matrix[r][c]){
+        while(r < m && c >=0){
+            if(matrix[r][c] == target){
                 return true;
             }
             else if(matrix[r][c] > target){
                 c = c-1;
             }
             else{
-                r = r+1;
+                r = r + 1;
             }
-        } 
+        }
         return false;
+
     }
 }
