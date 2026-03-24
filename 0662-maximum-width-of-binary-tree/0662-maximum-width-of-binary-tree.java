@@ -14,46 +14,41 @@
  * }
  */
 class Solution {
+    class Pair{
+        TreeNode ab;
+        int ac;
+        Pair(TreeNode ab, int ac){
+            this.ab = ab;
+            this.ac = ac;
+        }
+    }
     public int widthOfBinaryTree(TreeNode root) {
-        if(root == null){
-            return 0;
-
-        }
-        Queue<Pair<TreeNode , Integer>> q = new LinkedList<>();
-        q.add(new Pair<>(root,0));
-        int maxi = Integer.MIN_VALUE;
-        int indexL =0;
-        int indexR = 0;
-       
-        int width =0;                                
+        Queue<Pair> q = new ArrayDeque<>();
+        q.offer(new Pair(root,0));
+        int maxi =0;
+        int start =0;
+        int end =0;
         while(!q.isEmpty()){
-            int size = q.size();
-            int left =0;
-            int right =0;
-            boolean first = true;
-            for(int i =0; i<size; i++){
-            Pair<TreeNode, Integer> pair= q.poll();
-            int curr = pair.getValue();
-            if(first){
-            left =curr;
-            right = curr;
-            first = false;
-            }else{
-            right = curr;
+            int ss = q.size();
+            for(int i =0; i<ss; i++){
+                Pair nbr = q.poll();
+                TreeNode node = nbr.ab;
+                int idx = nbr.ac;
+                if(i == 0){
+                    start = idx;
+                }
+                if(i == ss-1){
+                    end = idx;
+                }
+                if(node.left != null){
+                    q.offer(new Pair(node.left, 2 * idx+1));
+                }
+                if(node.right != null){
+                    q.offer(new Pair(node.right, 2 * idx+2));
+                }
             }
-            indexL = 2 * curr + 1;
-            indexR = 2 * curr + 2;
-            if(pair.getKey().left!= null){
-                q.add(new Pair<>(pair.getKey().left,indexL));
-            }
-            if(pair.getKey().right!= null){
-                q.add(new Pair<>(pair.getKey().right,indexR));
-            }
-            }
-            width = (right - left) + 1;
-            maxi = Math.max(maxi, width);
-            
+            maxi = Math.max(maxi, end-start+1);
         }
-        return maxi; 
+        return maxi;
     }
 }
