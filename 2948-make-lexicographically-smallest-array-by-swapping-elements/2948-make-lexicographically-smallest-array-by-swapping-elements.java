@@ -1,51 +1,34 @@
-import java.util.*;
-
 class Solution {
     public int[] lexicographicallySmallestArray(int[] nums, int limit) {
         int n = nums.length;
-        
-        // Step 1: pair value with index
-        int[][] arr = new int[n][2];
-        for (int i = 0; i < n; i++) {
-            arr[i][0] = nums[i]; // value
-            arr[i][1] = i;       // index
-        }
-
-        // Step 2: sort by value
-        Arrays.sort(arr, (a, b) -> a[0] - b[0]);
-
+        int i =0;
         int[] result = new int[n];
-        
-        int i = 0;
-        while (i < n) {
-            List<Integer> indices = new ArrayList<>();
-            List<Integer> values = new ArrayList<>();
+        int[][] arr = new int[n][2];
+        for(int j =0; j<n; j++){
+            arr[j][0] = nums[j];
+            arr[j][1] = j;
+        }
+        Arrays.sort(arr, (a,b) -> (a[0]-b[0]));
 
-            indices.add(arr[i][1]);
-            values.add(arr[i][0]);
+        while(i < n){
+            List<Integer> ind = new ArrayList<>();
+            List<Integer> val = new ArrayList<>();
 
-            int j = i + 1;
 
-            // Step 3: build group
-            while (j < n && arr[j][0] - arr[j - 1][0] <= limit) {
-                indices.add(arr[j][1]);
-                values.add(arr[j][0]);
+            ind.add(arr[i][1]);
+            val.add(arr[i][0]);
+            int j =i +1;
+            while(j < n && arr[j][0] - arr[j-1][0] <= limit){
+                ind.add(arr[j][1]);
+                val.add(arr[j][0]);
                 j++;
             }
-
-            // Step 4: sort indices
-            Collections.sort(indices);
-
-            // values already sorted (since arr sorted)
-
-            // Step 5: assign smallest values to smallest indices
-            for (int k = 0; k < indices.size(); k++) {
-                result[indices.get(k)] = values.get(k);
+            Collections.sort(ind);
+            for(int k =0; k<ind.size(); k++){
+                result[ind.get(k)] = val.get(k);
             }
-
             i = j;
         }
-
         return result;
     }
 }
