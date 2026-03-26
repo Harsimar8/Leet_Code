@@ -1,28 +1,32 @@
 class Solution {
-    public int[][] merge(int[][] e) {
-        int m = e.length;
-        
-        Arrays.sort(e, (a,b) -> (a[0] != b[0]) ? Integer.compare(a[0],b[0]) : Integer.compare(a[1],b[1]) );
-        int start = e[0][0];
-        int end = e[0][1];
-        List<int[]> ans = new ArrayList<>();
-        for(int i =1; i<m; i++){
-            int s = e[i][0];
-            int e2 = e[i][1];
-            if(s <= end){
-                end = Math.max(e2,end);
+    public int[][] merge(int[][] intervals) {
+        int n = intervals.length;
+        Arrays.sort(intervals, (a,b) -> (a[0]-b[0]));
+        ArrayList<int[]> arr = new ArrayList<>();
+
+        int a = intervals[0][0];
+        int b = intervals[0][1];
+
+        for(int i =1 ;i<n; i++){
+            int one = intervals[i][0];
+            int two = intervals[i][1];
+
+            if(one <= b){
+                b = Math.max(b, two);
             }
             else{
-                ans.add(new int[]{start,end});
-                start =s;
-                end = e2;
+                arr.add(new int[]{a,b});
+                a = one;
+                b = two;
             }
         }
-        ans.add(new int[]{start, end});
-        int[][] mat = new int[ans.size()][];
-        for(int j =0; j<ans.size(); j++){
-            mat[j] = ans.get(j);
+
+        arr.add(new int[]{a,b});
+        int[][] result = new int[arr.size()][2];
+        for(int k =0; k<arr.size(); k++){
+            result[k] = arr.get(k);
         }
-        return mat;
+        return result;
+
     }
 }
