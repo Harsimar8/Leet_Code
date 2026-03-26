@@ -298,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Harsimar8/Leet_Code/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Harsimar8/Leet_Code/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Harsimar8/Leet_Code/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -541,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Harsimar8/Leet_Code/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Harsimar8/Leet_Code/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3531-count-covered-buildings](https://github.com/Harsimar8/Leet_Code/tree/master/3531-count-covered-buildings) |
@@ -1078,4 +1080,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
+## Union-Find
+|  |
+| ------- |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 <!---LeetCode Topics End-->
