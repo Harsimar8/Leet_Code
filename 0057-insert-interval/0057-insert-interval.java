@@ -17,6 +17,7 @@ class Solution {
                 ans.add(new int[]{a,b});
                 a = p;
                 b = s;
+                
             }
             else{
                 a = Math.min(a,p);
