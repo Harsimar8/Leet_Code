@@ -4,30 +4,27 @@ class Solution {
         int a = newInterval[0];
         int b = newInterval[1];
 
-         int p =0;
-         int s =0;
-        for(int[] im : intervals){
-            p = im[0];
-            s = im[1];
+        for(int i = 0; i<intervals.length; i++){
+            int one = intervals[i][0];
+            int two = intervals[i][1];
 
-            if(s < a){
-                ans.add(new int[]{p,s});
+            if(a > two){
+                ans.add(new int[]{one, two});
             }
-            else if(p > b){
+            else if(b < one){
                 ans.add(new int[]{a,b});
-                a = p;
-                b = s;
-                
+                a = one;
+                b = two;
             }
             else{
-                a = Math.min(a,p);
-                b = Math.max(s,b);
+                a = Math.min(a, one);
+                b = Math.max(b, two);
             }
         }
         ans.add(new int[]{a,b});
-        int[][] res = new int[ans.size()][2];
-        for(int j =0; j<ans.size(); j++){
-            res[j] = ans.get(j);
+        int[][] res = new int[ans.size()][];
+        for(int k =0; k<ans.size(); k++){
+            res[k] = ans.get(k);
         }
         return res;
     }
