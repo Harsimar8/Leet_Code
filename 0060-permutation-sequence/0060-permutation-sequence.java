@@ -1,15 +1,14 @@
 class Solution {
     public String getPermutation(int n, int k) {
-        int fact =1;
+        StringBuilder sb = new StringBuilder("");
+        int fact  =1;
         List<Integer> ans = new ArrayList<>();
-        for(int i = 1; i<n; i++){
+        for(int i =1; i<n; i++){
             fact = fact * i;
             ans.add(i);
         }
         ans.add(n);
-        String res = "";
         k = k-1;
-        StringBuilder sb = new StringBuilder(res);
         while(true){
             sb.append(ans.get(k/fact));
             ans.remove(k/fact);
@@ -20,5 +19,6 @@ class Solution {
             fact = fact / ans.size();
         }
         return sb.toString();
+
     }
 }
