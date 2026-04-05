@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Harsimar8/Leet_Code/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/Harsimar8/Leet_Code/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/Harsimar8/Leet_Code/tree/master/0179-largest-number) |
+| [0205-isomorphic-strings](https://github.com/Harsimar8/Leet_Code/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Harsimar8/Leet_Code/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Harsimar8/Leet_Code/tree/master/0344-reverse-string) |
