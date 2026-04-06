@@ -9,7 +9,7 @@ class Solution {
             }
             int left = i+1;
             int right = n-1;
-            while(left < right){
+            while(left< right){
                 int sum = nums[i] + nums[left] + nums[right];
                 if(sum == 0){
                     List<Integer> ans = new ArrayList<>();
@@ -17,7 +17,7 @@ class Solution {
                     ans.add(nums[left]);
                     ans.add(nums[right]);
                     res.add(ans);
-                    while(left < right && nums[left+1] == nums[left]){
+                    while(left < right && nums[left] == nums[left+1]){
                         left++;
                     }
                     left++;
