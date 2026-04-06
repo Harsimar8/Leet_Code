@@ -11,7 +11,7 @@ class Solution {
         int ans = 0;
         while(low <= high){
             int mid = (low + high)/2;
-            if(helper(piles, mid) <= h){
+            if(helper(piles, mid,h) <= h){
                 ans = mid;
                 high = mid -1;
             }
@@ -22,7 +22,7 @@ class Solution {
         }
         return ans;
     }
-    public int helper(int[] piles, int k){
+    public int helper(int[] piles, int k, int h){
         int cnt =0;
         int m = piles.length;
         long total =0;
@@ -32,6 +32,9 @@ class Solution {
             total += val;
             if(cur != 0){
                 total += 1;
+            }
+            if(total > h){
+                break;
             }
             
             
