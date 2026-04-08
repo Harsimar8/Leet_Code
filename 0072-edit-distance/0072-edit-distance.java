@@ -6,9 +6,9 @@ class Solution {
         for(int[] row : dp){
             Arrays.fill(row, -1);
         }
-        return helper(word1, word2,m,n,dp);
+        return helper(word1, word2, m,n,dp);
     }
-    public int helper(String word1, String word2, int i , int j,int[][]dp){
+    public int helper(String word1, String word2, int i, int j,int[][] dp){
         if(i == 0){
             return j;
         }
@@ -19,14 +19,15 @@ class Solution {
             return dp[i][j];
         }
         if(word1.charAt(i-1) == word2.charAt(j-1)){
-            return dp[i][j] = helper(word1, word2, i-1,j-1,dp);
+            return helper(word1, word2, i-1, j-1, dp);
         }
         else{
-            int one = helper(word1,word2, i-1, j-1,dp);
-            int two = helper(word1,word2, i, j-1,dp);
-            int three = helper(word1,word2, i-1, j,dp);
+            int one =  helper(word1, word2, i-1, j-1, dp);
+            int two =  helper(word1, word2, i-1, j, dp);
+            int three = helper(word1, word2, i, j-1, dp);
         
-        return dp[i][j] = 1 + Math.min(one, Math.min(two, three));
+        dp[i][j] = 1 + Math.min(one,Math.min(two, three));
         }
+        return dp[i][j];
     }
 }
