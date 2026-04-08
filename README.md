@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Harsimar8/Leet_Code/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Harsimar8/Leet_Code/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/Harsimar8/Leet_Code/tree/master/0312-burst-balloons) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0407-trapping-rain-water-ii) |
@@ -485,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Harsimar8/Leet_Code/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/Harsimar8/Leet_Code/tree/master/0493-reverse-pairs) |
@@ -833,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Harsimar8/Leet_Code/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/Harsimar8/Leet_Code/tree/master/0312-burst-balloons) |
 | [0392-is-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0410-split-array-largest-sum) |
