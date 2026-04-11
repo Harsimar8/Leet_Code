@@ -8,31 +8,25 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-import java.util.PriorityQueue;
-
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        if (lists == null || lists.length == 0) return null;
-
-       
-        PriorityQueue<ListNode> qq = new PriorityQueue<>((a, b) -> a.val - b.val);
-
-        
-        for (ListNode node : lists) {
-            if (node != null) qq.offer(node);
+       PriorityQueue<ListNode> pq = new PriorityQueue<>((a,b) -> (a.val - b.val));
+       for(ListNode ok : lists){
+        if(ok != null){
+            pq.offer(ok);
         }
-
-        ListNode dummy = new ListNode(0);
-        ListNode tail = dummy;
-
-        while (!qq.isEmpty()) {
-            ListNode min = qq.poll();
-            tail.next = min;
-            tail = tail.next;
-
-            if (min.next != null) qq.offer(min.next);
+       }
+       ListNode dummy = new ListNode(0);
+       ListNode temp = dummy;
+       while(!pq.isEmpty()){
+        ListNode vv = pq.poll();
+        temp.next = vv;
+        temp = temp.next;
+        if(vv.next != null){
+            pq.offer(vv.next);
         }
-
-        return dummy.next;
+      
+       }
+       return dummy.next;
     }
 }
