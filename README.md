@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/Harsimar8/Leet_Code/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Harsimar8/Leet_Code/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Harsimar8/Leet_Code/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Harsimar8/Leet_Code/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Harsimar8/Leet_Code/tree/master/0127-word-ladder) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Harsimar8/Leet_Code/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Harsimar8/Leet_Code/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Harsimar8/Leet_Code/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Harsimar8/Leet_Code/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0088-merge-sorted-array) |
@@ -685,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Harsimar8/Leet_Code/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Harsimar8/Leet_Code/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Harsimar8/Leet_Code/tree/master/0130-surrounded-regions) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -734,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Harsimar8/Leet_Code/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0100-same-tree) |
@@ -979,6 +983,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Harsimar8/Leet_Code/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Harsimar8/Leet_Code/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Harsimar8/Leet_Code/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0113-path-sum-ii) |
 | [0126-word-ladder-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/Harsimar8/Leet_Code/tree/master/0131-palindrome-partitioning) |
