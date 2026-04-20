@@ -15,15 +15,15 @@
  */
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
-
         if(root == null){
-            return null;
+            return root;
         }
-        if(key > root.val){
-            root.right = deleteNode(root.right, key);
-        }
-        else if(key < root.val){
+       
+        if(root.val > key){
             root.left = deleteNode(root.left, key);
+        }
+        else if(root.val < key){
+            root.right = deleteNode(root.right, key);
         }
         else{
             if(root.left == null){
@@ -33,21 +33,20 @@ class Solution {
                 return root.left;
             }
             else{
-                TreeNode succ = find(root.right);
-                root.val = succ.val;
-                root.right = deleteNode(root.right, succ.val);
+                TreeNode cur  =find(root.right);
+                root.val = cur.val;
+                root.right = deleteNode(root.right, cur.val);
             }
         }
-        
-        
-        
-
         return root;
     }
-    public TreeNode find(TreeNode node){
-        while(node.left != null){
-            node = node.left;
+    public TreeNode find(TreeNode cur){
+        if(cur == null){
+            return null;
         }
-        return node;
+        while(cur.left != null){
+            cur = cur.left;
+        }
+        return cur;
     }
 }
