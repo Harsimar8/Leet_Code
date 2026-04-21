@@ -1,18 +1,17 @@
 class Solution {
     public int jump(int[] nums) {
         int n = nums.length;
-        int maxi =0;
+        int maxi = Integer.MIN_VALUE;
         int cnt =0;
-        int farth =0;
-        int end =0;
+        int last =0;
         for(int i =0; i<n-1; i++){
-            maxi = Math.max(maxi, nums[i] + i);
-        
-            if(i == end){
+            maxi = Math.max(maxi, i + nums[i]);
+            if(i == last){
+                last = maxi;
                 cnt++;
-                end = maxi;
             }
         }
+        
         return cnt;
     }
 }
