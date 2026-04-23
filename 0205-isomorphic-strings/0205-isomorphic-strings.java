@@ -1,7 +1,7 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        HashMap<Character, Character> mp1 = new HashMap<>();
-        HashMap<Character, Character> mp2 = new HashMap<>();
+        HashMap<Character, Character> mpp1 = new HashMap<>();
+        HashMap<Character, Character> mpp2 = new HashMap<>();
         if(s.length() != t.length()){
             return false;
         }
@@ -9,22 +9,26 @@ class Solution {
             char a = s.charAt(i);
             char b = t.charAt(i);
 
-            if(mp1.containsKey(a)){
-                if(mp1.get(a) != b) return false;
+            if(mpp1.containsKey(a)){
+                if(mpp1.get(a) != b){
+                    return false;
+                }
             }
             else{
-                mp1.put(a,b);
+                mpp1.put(a,b);
             }
 
-            if(mp2.containsKey(b)){
-                if(mp2.get(b) != a) return false;
+             if(mpp2.containsKey(b)){
+                if(mpp2.get(b) != a){
+                    return false;
+                }
             }
             else{
-                mp2.put(b,a);
+                mpp2.put(b,a);
             }
-
 
         }
         return true;
     }
+
 }
