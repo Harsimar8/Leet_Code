@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Harsimar8/Leet_Code/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Harsimar8/Leet_Code/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/Harsimar8/Leet_Code/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/Harsimar8/Leet_Code/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Harsimar8/Leet_Code/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0229-majority-element-ii) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Harsimar8/Leet_Code/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0137-single-number-ii) |
 | [0140-word-break-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/Harsimar8/Leet_Code/tree/master/0149-max-points-on-a-line) |
 | [0152-maximum-product-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harsimar8/Leet_Code/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Harsimar8/Leet_Code/tree/master/0162-find-peak-element) |
@@ -449,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/Harsimar8/Leet_Code/tree/master/0060-permutation-sequence) |
 | [0069-sqrtx](https://github.com/Harsimar8/Leet_Code/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Harsimar8/Leet_Code/tree/master/0070-climbing-stairs) |
+| [0149-max-points-on-a-line](https://github.com/Harsimar8/Leet_Code/tree/master/0149-max-points-on-a-line) |
 | [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Harsimar8/Leet_Code/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Harsimar8/Leet_Code/tree/master/0326-power-of-three) |
@@ -1087,6 +1090,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/Harsimar8/Leet_Code/tree/master/0149-max-points-on-a-line) |
 | [0973-k-closest-points-to-origin](https://github.com/Harsimar8/Leet_Code/tree/master/0973-k-closest-points-to-origin) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Harsimar8/Leet_Code/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Graph Theory
