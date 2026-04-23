@@ -21,30 +21,26 @@ class Solution {
             if(kth == null){
                 break;
             }
-            
             ListNode groupS = prevG.next;
             ListNode nextG = kth.next;
-
             kth.next = null;
             ListNode newH = rev(groupS);
             prevG.next = newH;
             groupS.next = nextG;
-             
-            prevG = groupS;
-            groupS = nextG;
-            
 
-        } 
+            prevG = groupS;
+            groupS = newH;
+            
+        }
         return dummy.next;
     }
     public ListNode rev(ListNode temp){
         ListNode cur = null;
-        ListNode ans = temp;
-        while(temp!= null){
+        while(temp  != null){
             ListNode kk = temp.next;
             temp.next = cur;
             cur = temp;
-            temp = kk; 
+             temp = kk;
         }
         return cur;
     }
