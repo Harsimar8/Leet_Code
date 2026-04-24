@@ -1,23 +1,22 @@
 class Solution {
     public int trap(int[] height) {
         int n = height.length;
-        int[] left = new int[n];
-        left[0] = height[0];
-        Stack<Integer> st = new Stack<>();
-        int idx =0;
-        int[] right = new int[n];
-        right[n-1] = height[n-1];
-        int res =0;
-        for(int k =1; k<n; k++){
-            left[k] = Math.max(left[k-1], height[k]);
+        int[] leftM = new int[n];
+        int[] rightM = new int[n];
+        leftM[0] = height[0];
+        for(int i =1; i<n; i++){
+            leftM[i] = Math.max(height[i], leftM[i-1]);
         }
-        for(int m = n-2; m>=0; m--){
-            right[m] = Math.max(right[m+1], height[m]);
+        rightM[n-1] = height[n-1];
+        for(int j = n-2; j>=0; j--){
+            rightM[j] = Math.max(height[j], rightM[j+1]);
         }
-        for(int i =0; i<n; i++){
-             
-            res += Math.min(left[i],right[i]) - height[i];
+        int total =0;
+        for(int k =1; k<n-1; k++){
+            int val = Math.min(leftM[k], rightM[k]);
+            int car = Math.abs(height[k] - val);
+            total += car;
         }
-        return res;
+        return total;
     }
 }
