@@ -1,35 +1,35 @@
 class Solution {
     public boolean exist(char[][] board, String word) {
-        char[] arr = word.toCharArray();
         int m = board.length;
         int n = board[0].length;
-        boolean[][] vis = new boolean[m+1][n+1];
-        int index = 0;
-        for(int i =0; i<m; i++){
-           
-            for(int j =0; j<n; j++){
-               boolean ans =  helper(board, i,j,m,n, arr,vis,0);
-                if(ans == true){
-                    return true;
+        boolean[][] vis = new boolean[m][n];
+        boolean ff = false;
+        for(int k =0; k<m; k++){
+            for(int l = 0; l<n; l++){
+                boolean val = false;
+                val = helper(vis, board, word, m,n,k,l,0);
+                if(val){
+                    ff = true;
+                    break;
                 }
             }
         }
-        return false;
-        
+        return ff;
     }
-    public boolean helper(char[][] board, int i, int j, int m, int n,char[] arr,boolean[][] vis, int index){
-        if(i<0 || j<0 || i>=m || j>=n || vis[i][j] == true || board[i][j] != arr[index]){
+    public boolean helper(boolean[][] vis, char[][] board, String word, int m ,int n, int i, int j, int ind){
+        if(i<0 || j <0 || i>=m || j >= n || board[i][j] != word.charAt(ind) || vis[i][j] == true){
             return false;
         }
-        if(index == arr.length-1){
+        
+        if(ind == word.length()-1){
             return true;
         }
         vis[i][j] = true;
-        boolean found = helper(board,i+1,j,m,n,arr,vis, index+1) ||
-                    helper(board,i-1,j,m,n,arr,vis, index+1) ||
-                    helper(board,i,j+1,m,n,arr,vis, index+1) ||
-                    helper(board,i,j-1,m,n,arr,vis, index+1);
+        boolean found = false;
+        found = helper(vis, board, word, m,n,i+1,j,ind+1) || helper(vis, board, word, m,n,i-1,j,ind+1)
+              || helper(vis, board, word, m,n,i,j+1,ind+1) || helper(vis, board, word, m,n,i,j-1,ind+1);
         vis[i][j] = false;
-        return found;            
+
+         return found;     
     }
 }
