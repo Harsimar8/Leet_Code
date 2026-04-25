@@ -1,13 +1,13 @@
 class Solution {
     public String getPermutation(int n, int k) {
-        StringBuilder sb = new StringBuilder("");
-        int fact  =1;
+        int fact = 1;
         List<Integer> ans = new ArrayList<>();
         for(int i =1; i<n; i++){
             fact = fact * i;
             ans.add(i);
         }
         ans.add(n);
+        StringBuilder sb = new StringBuilder("");
         k = k-1;
         while(true){
             sb.append(ans.get(k/fact));
@@ -15,8 +15,8 @@ class Solution {
             if(ans.size() == 0){
                 break;
             }
-            k = k % fact;
-            fact = fact / ans.size();
+            k = k%fact;
+            fact = fact / ans.size(); 
         }
         return sb.toString();
 
