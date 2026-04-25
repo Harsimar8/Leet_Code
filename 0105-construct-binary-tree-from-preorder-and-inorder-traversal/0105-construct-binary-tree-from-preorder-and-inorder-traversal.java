@@ -15,22 +15,21 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        HashMap<Integer,Integer> mpp = new HashMap<>();
+       HashMap<Integer, Integer> mpp = new HashMap<>();
         for(int i =0; i<inorder.length; i++){
-            mpp.put(inorder[i], i);
+            mpp.put(inorder[i],i);
         }
-        return build(preorder, inorder, 0, preorder.length -1, 0, inorder.length -1, mpp);
+        return helper(inorder, preorder, 0, preorder.length -1, 0, inorder.length-1, mpp);
     }
-    public TreeNode build(int[] preorder,int[] inorder, int preS, int preE, int inS, int inE,HashMap<Integer,Integer> mpp){
-
-        if(preS > preE || inS > inE){
+   public TreeNode helper(int[] inorder, int[] preorder, int preS, int preE, int inS, int inEnd, HashMap<Integer, Integer> mpp){
+        if(preS > preE || inS > inEnd){
             return null;
-        } 
+        }
+        int inroot = mpp.get(preorder[preS]);
         TreeNode root = new TreeNode(preorder[preS]);
-        int inroot = mpp.get(root.val);
         int nums = inroot - inS;
-        root.left = build(preorder,inorder,preS + 1,preS + nums , inS, inroot-1,mpp);
-        root.right = build(preorder,inorder,preS + nums + 1, preE, inroot + 1, inE,mpp);
+        root.left = helper(inorder, preorder, preS + 1, preS + nums, inS, inroot - 1,  mpp);
+        root.right = helper(inorder, preorder, preS + nums + 1, preE, inroot +1, inEnd,  mpp);
         return root;
     }
 }
