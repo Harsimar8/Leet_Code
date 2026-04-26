@@ -3,21 +3,21 @@ class Solution {
         int m = image.length;
         int n = image[0].length;
         int old = image[sr][sc];
-        helper(image,sr,sc,old,color, m,n);
+        helper(image, sr, sc, old, color,m,n);
         return image;
     }
-    public void helper(int[][] image, int i, int j, int oldcolor ,int newcolor, int m , int n){
-        if(i <0 || j <0 || i >= m || j >= n || image[i][j] == newcolor){
+    public void helper(int[][] image, int sr, int sc, int oldC, int newC, int m, int n){
+        if(sr <0 || sc < 0 || sr >= m || sc >= n || image[sr][sc] == newC ){
             return;
         }
-        
-        if(image[i][j] != oldcolor){
+        if(image[sr][sc] != oldC){
             return;
         }
-        image[i][j] = newcolor;
-        helper(image,i+1,j,oldcolor,newcolor,m,n);
-        helper(image,i-1,j,oldcolor,newcolor,m,n);
-        helper(image,i,j+1,oldcolor,newcolor,m,n);
-        helper(image,i,j-1,oldcolor,newcolor,m,n);
-    }
+        image[sr][sc] = newC;
+        helper(image, sr+1, sc, oldC, newC,m,n);
+        helper(image, sr-1, sc, oldC, newC,m,n);
+        helper(image, sr, sc+1, oldC, newC,m,n);
+        helper(image, sr, sc-1, oldC, newC,m,n);
+
+    } 
 }
