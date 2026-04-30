@@ -14,54 +14,19 @@
  * }
  */
 class Solution {
+    HashSet<Integer> set = new HashSet<>();
+
     public boolean findTarget(TreeNode root, int k) {
-        BTS l  =new BTS(root,false);
-        BTS r = new BTS(root,true);
-        int i = l.next();
-        int j = r.next();
-        while(i < j){
-            if(i  +j == k){
-                return true;
-            }
-            else if(i  +j < k){
-                i = l.next();
-            }
-            else{
-                j = r.next();
-            }
-        }
-        return false;
-    }
-    class BTS{
-        Stack<TreeNode> st = new Stack<>();
-        boolean reverse;
-        BTS(TreeNode root, boolean is){
-            st = new Stack<>();
-            reverse =is;
-            pushAll(root);
-        }
-    public void pushAll(TreeNode root){
-        while(root != null){
-            st.push(root);
-            if(reverse){
-                root = root.right;
-            }
-            else{
-                root = root.left;
-            }
-        }
-    }
-    public int next(){
-        TreeNode cur = st.pop();
-        if(reverse){
-            pushAll(cur.left);
-        }
-        else{
-            pushAll(cur.right);
+        // Base case: null node
+        if (root == null) return false;
 
-        }
-        return cur.val;
-    }
-    }
+        // If complement is found, return true
+        if (set.contains(k - root.val)) return true;
 
+        // Otherwise, add current node value to the set
+        set.add(root.val);
+
+        // Recurse on left and right subtrees
+        return findTarget(root.left, k) || findTarget(root.right, k);
+    }
 }
