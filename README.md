@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Harsimar8/Leet_Code/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/Harsimar8/Leet_Code/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Harsimar8/Leet_Code/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Harsimar8/Leet_Code/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Harsimar8/Leet_Code/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0213-house-robber-ii) |
 | [0229-majority-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0229-majority-element-ii) |
@@ -705,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Harsimar8/Leet_Code/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Harsimar8/Leet_Code/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Harsimar8/Leet_Code/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Harsimar8/Leet_Code/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0407-trapping-rain-water-ii) |
@@ -766,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Harsimar8/Leet_Code/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Harsimar8/Leet_Code/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Harsimar8/Leet_Code/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Harsimar8/Leet_Code/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Harsimar8/Leet_Code/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -806,6 +809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Harsimar8/Leet_Code/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Harsimar8/Leet_Code/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/Harsimar8/Leet_Code/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Harsimar8/Leet_Code/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Harsimar8/Leet_Code/tree/master/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Harsimar8/Leet_Code/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/Harsimar8/Leet_Code/tree/master/0322-coin-change) |
@@ -1135,5 +1139,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Harsimar8/Leet_Code/tree/master/0200-number-of-islands) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 <!---LeetCode Topics End-->
