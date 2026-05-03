@@ -1,28 +1,35 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp,-1);
-        int[] dp1 = new int[n];
-        Arrays.fill(dp1, -1);
         if(n == 1){
             return nums[0];
         }
-        return Math.max(helper(dp,0,nums,n-2), helper(dp1,1,nums,n-1));
+        int[] skipFirst = new int[n-1];
+        int[] skipLast = new int[n-1];
+        for(int i =0; i<n-1; i++){
+            skipFirst[i] = nums[i+1];
+            skipLast[i] = nums[i];
+        }
+        int[] dp1 = new int[skipFirst.length];
+        int[] dp2 = new int[skipLast.length];
+        int one = helper(skipFirst, dp1);
+        int two = helper(skipLast, dp2);
+        return Math.max(one, two);
     }
-    public int helper(int[] dp, int n, int[] nums , int end){
+    public int helper(int[] arr, int[] dp){
         
-        int s = nums.length;
-        if(n>end){
+        int n = arr.length;
+        if(n == 0){
             return 0;
         }
-        if(dp[n] != -1){
-            return dp[n];
+        if(n == 1){
+            return arr[0];
         }
-        
-        int pick = nums[n] + helper(dp,n+2,nums, end);
-        int share = helper(dp,n+1,nums, end);
-        dp[n] = Math.max(pick,share);
-        return dp[n];
-    }
+        dp[0] = arr[0];
+        dp[1] = Math.max(arr[1], arr[0]);
+        for(int i =2; i<n; i++){
+            dp[i] = Math.max(arr[i] + dp[i-2], dp[i-1]);
+        }
+        return dp[n-1];
+    } 
 }
