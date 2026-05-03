@@ -18,17 +18,17 @@ class Solution {
         }
         ListNode oddH = head;
         ListNode last = oddH;
-        ListNode even = oddH.next;
-        ListNode evenH = even;
+        ListNode evenH = oddH.next;
+        ListNode even = evenH;
         while(even != null && even.next != null){
             oddH.next = even.next;
             oddH = oddH.next;
 
             even.next = oddH.next;
             even = even.next;
+
         }
         oddH.next = evenH;
         return last;
-        
     }
 }
