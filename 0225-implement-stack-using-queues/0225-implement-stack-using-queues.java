@@ -1,38 +1,39 @@
+import java.util.Queue;
+import java.util.LinkedList;
 
 class MyStack {
-    private int[] arr;
-    private int size = 1000;
-    private int top;
+    Queue<Integer> q;
 
     public MyStack() {
-        arr = new int[size];
-        top = -1;    
+        q = new LinkedList<>();
     }
     
     public void push(int x) {
-        if(top >= size - 1){
-            return;
+        q.offer(x);
+
+        int ss = q.size();
+        for(int i =0; i<ss -1; i++){
+            q.offer(q.poll());
         }
-        arr[++top] = x;
     }
     
     public int pop() {
-        if(top == -1){
+        if(empty()){
             return -1;
         }
-        return arr[top--];
+        return q.poll();
     }
 
     
     public int top() {
-        if(top == -1){
+        if(empty()){
             return -1;
         }
-        return arr[top];
+        return q.peek();
     }
     
     public boolean empty() {
-        return(top == -1);
+        return(q.size() == 0);
     }
 }
 
