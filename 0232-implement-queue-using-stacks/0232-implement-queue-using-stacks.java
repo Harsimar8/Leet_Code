@@ -1,37 +1,42 @@
 class MyQueue {
-    private int[] arr;
-    private int size = 1000;
-    private int front;
-    private int rear;
+    Stack<Integer> s1;
+    Stack<Integer> s2;
+
     public MyQueue() {
-        arr = new int[size];
-        front = 0;
-        rear = -1;
+        s1 = new Stack<>();
+        s2 = new Stack<>();
     }
     
     public void push(int x) {
-        if(rear == size -1){
-            return;
-        }
-        arr[++rear] = x;
+        s1.push(x);
     }
     
     public int pop() {
         if(empty()){
             return -1;
         }
-        return arr[front++];
+        if(s2.isEmpty()){
+            while(!s1.isEmpty()){
+                s2.push(s1.pop());
+            }
+        }
+        return s2.pop();
     }
     
     public int peek() {
         if(empty()){
             return -1;
         }
-        return arr[front];
+        if(s2.isEmpty()){
+            while(!s1.isEmpty()){
+                s2.push(s1.pop());
+            }
+        }
+        return s2.peek();
     }
     
     public boolean empty() {
-        return (front > rear);
+        return (s1.isEmpty() && s2.isEmpty());
     }
 }
 
