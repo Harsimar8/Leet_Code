@@ -1,52 +1,46 @@
-import java.util.Stack;
-
 class MyQueue {
 
-    Stack<Integer> s1;
-    Stack<Integer> s2;
+    int[] arr;
+    int front;
+    int rear;
+    int size;
 
     public MyQueue() {
-        s1 = new Stack<>();
-        s2 = new Stack<>();
+        size = 1000;
+        arr = new int[size];
+        front = 0;
+        rear = -1;
     }
-
+    
     public void push(int x) {
-        s1.push(x);
-    }
 
+        if(rear == size - 1){
+            return;
+        }
+
+        arr[++rear] = x;
+    }
+    
     public int pop() {
 
         if(empty()){
             return -1;
         }
 
-        if(s2.isEmpty()){
-
-            while(!s1.isEmpty()){
-                s2.push(s1.pop());
-            }
-        }
-
-        return s2.pop();
+        return arr[front++];
     }
-
+    
     public int peek() {
 
         if(empty()){
             return -1;
         }
 
-        if(s2.isEmpty()){
-
-            while(!s1.isEmpty()){
-                s2.push(s1.pop());
-            }
-        }
-
-        return s2.peek();
+        return arr[front];
     }
-
+    
     public boolean empty() {
-        return s1.isEmpty() && s2.isEmpty();
+
+        return front > rear;
     }
 }
