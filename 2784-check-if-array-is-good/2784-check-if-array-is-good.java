@@ -1,24 +1,33 @@
 class Solution {
     public boolean isGood(int[] nums) {
-        int n = nums.length;
-        int maxi = 0;
-        for(int i =0; i<n; i++){
-            if(nums[i] > maxi){
-                maxi = nums[i];
-            }
+        int mx = 0;
+
+        for (int x : nums) {
+            mx = Math.max(mx, x);
         }
-        if(nums.length != maxi+1){
+
+        // size must be mx + 1
+        if (nums.length != mx + 1)
             return false;
-        }
-        Arrays.sort(nums);
-        for(int k =1; k<=maxi; k++){
-            if(nums[k-1] != k){
+
+        int[] freq = new int[mx + 1];
+
+        for (int x : nums) {
+            // invalid number
+            if (x < 1 || x > mx)
                 return false;
-            }
+
+            freq[x]++;
         }
-        if(nums[n-1] != maxi){
-            return false;
+
+        // 1 to mx-1 should appear once
+        for (int i = 1; i < mx; i++) {
+
+            if (freq[i] != 1)
+                return false;
         }
-        return true;
+
+        // mx should appear twice
+        return freq[mx] == 2;
     }
 }
