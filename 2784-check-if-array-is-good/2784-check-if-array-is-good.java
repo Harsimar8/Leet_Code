@@ -6,28 +6,23 @@ class Solution {
             mx = Math.max(mx, x);
         }
 
-        // size must be mx + 1
         if (nums.length != mx + 1)
             return false;
+        int n = nums.length;
+         int[] freq = new int[mx+1];
 
-        int[] freq = new int[mx + 1];
-
-        for (int x : nums) {
-            // invalid number
-            if (x < 1 || x > mx)
+         for(int i = 0; i<n; i++){
+            if(nums[i] <1 || nums[i] > mx){
                 return false;
-
-            freq[x]++;
-        }
-
-        // 1 to mx-1 should appear once
-        for (int i = 1; i < mx; i++) {
-
-            if (freq[i] != 1)
+            }
+            freq[nums[i]]++;
+         }   
+         for(int k = 1; k<mx; k++){
+            if(freq[k] != 1){
                 return false;
-        }
-
-        // mx should appear twice
-        return freq[mx] == 2;
+            }
+         }
+         return freq[mx] == 2;
+        
     }
 }
