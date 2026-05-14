@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Harsimar8/Leet_Code/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
+| [2784-check-if-array-is-good](https://github.com/Harsimar8/Leet_Code/tree/master/2784-check-if-array-is-good) |
 | [3420-find-occurrences-of-an-element-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/3420-find-occurrences-of-an-element-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/Harsimar8/Leet_Code/tree/master/3531-count-covered-buildings) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
+| [2784-check-if-array-is-good](https://github.com/Harsimar8/Leet_Code/tree/master/2784-check-if-array-is-good) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Harsimar8/Leet_Code/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Harsimar8/Leet_Code/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
@@ -576,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
+| [2784-check-if-array-is-good](https://github.com/Harsimar8/Leet_Code/tree/master/2784-check-if-array-is-good) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Harsimar8/Leet_Code/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Harsimar8/Leet_Code/tree/master/3075-maximize-happiness-of-selected-children) |
