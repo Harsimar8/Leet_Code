@@ -314,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Harsimar8/Leet_Code/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/Harsimar8/Leet_Code/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
+| [2553-separate-the-digits-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/2553-separate-the-digits-in-an-array) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2574-left-and-right-sum-differences](https://github.com/Harsimar8/Leet_Code/tree/master/2574-left-and-right-sum-differences) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
@@ -753,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Harsimar8/Leet_Code/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2470-removing-stars-from-a-string](https://github.com/Harsimar8/Leet_Code/tree/master/2470-removing-stars-from-a-string) |
+| [2553-separate-the-digits-in-an-array](https://github.com/Harsimar8/Leet_Code/tree/master/2553-separate-the-digits-in-an-array) |
 | [2585-delete-greatest-value-in-each-row](https://github.com/Harsimar8/Leet_Code/tree/master/2585-delete-greatest-value-in-each-row) |
 | [3336-water-bottles-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3336-water-bottles-ii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Harsimar8/Leet_Code/tree/master/3616-make-array-elements-equal-to-zero) |
