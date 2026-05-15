@@ -322,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [2625-increment-submatrices-by-one](https://github.com/Harsimar8/Leet_Code/tree/master/2625-increment-submatrices-by-one) |
 | [2737-row-with-maximum-ones](https://github.com/Harsimar8/Leet_Code/tree/master/2737-row-with-maximum-ones) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Harsimar8/Leet_Code/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/Harsimar8/Leet_Code/tree/master/2784-check-if-array-is-good) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Harsimar8/Leet_Code/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -907,6 +908,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Harsimar8/Leet_Code/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Harsimar8/Leet_Code/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Harsimar8/Leet_Code/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Harsimar8/Leet_Code/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Monotonic Stack
 |  |
