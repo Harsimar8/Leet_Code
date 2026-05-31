@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2104-sum-of-subarray-ranges](https://github.com/Harsimar8/Leet_Code/tree/master/2104-sum-of-subarray-ranges) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Harsimar8/Leet_Code/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Harsimar8/Leet_Code/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2126-destroying-asteroids](https://github.com/Harsimar8/Leet_Code/tree/master/2126-destroying-asteroids) |
 | [2169-simple-bank-system](https://github.com/Harsimar8/Leet_Code/tree/master/2169-simple-bank-system) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Harsimar8/Leet_Code/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Harsimar8/Leet_Code/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -590,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Harsimar8/Leet_Code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2092-find-all-people-with-secret](https://github.com/Harsimar8/Leet_Code/tree/master/2092-find-all-people-with-secret) |
+| [2126-destroying-asteroids](https://github.com/Harsimar8/Leet_Code/tree/master/2126-destroying-asteroids) |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Harsimar8/Leet_Code/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Harsimar8/Leet_Code/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Harsimar8/Leet_Code/tree/master/2566-number-of-unequal-triplets-in-array) |
@@ -963,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2126-destroying-asteroids](https://github.com/Harsimar8/Leet_Code/tree/master/2126-destroying-asteroids) |
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
 | [2939-maximum-xor-product](https://github.com/Harsimar8/Leet_Code/tree/master/2939-maximum-xor-product) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Harsimar8/Leet_Code/tree/master/3075-maximize-happiness-of-selected-children) |
