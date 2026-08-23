@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1636-number-of-substrings-with-only-1s](https://github.com/Harsimar8/Leet_Code/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Harsimar8/Leet_Code/tree/master/1777-determine-if-two-strings-are-close) |
+| [1927-sum-game](https://github.com/Harsimar8/Leet_Code/tree/master/1927-sum-game) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Harsimar8/Leet_Code/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2211-count-collisions-on-a-road](https://github.com/Harsimar8/Leet_Code/tree/master/2211-count-collisions-on-a-road) |
@@ -499,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1636-number-of-substrings-with-only-1s](https://github.com/Harsimar8/Leet_Code/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/Harsimar8/Leet_Code/tree/master/1642-water-bottles) |
 | [1925-count-square-sum-triples](https://github.com/Harsimar8/Leet_Code/tree/master/1925-count-square-sum-triples) |
+| [1927-sum-game](https://github.com/Harsimar8/Leet_Code/tree/master/1927-sum-game) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Harsimar8/Leet_Code/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Harsimar8/Leet_Code/tree/master/2165-smallest-value-of-the-rearranged-number) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
@@ -970,6 +972,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/Harsimar8/Leet_Code/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1927-sum-game](https://github.com/Harsimar8/Leet_Code/tree/master/1927-sum-game) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2126-destroying-asteroids](https://github.com/Harsimar8/Leet_Code/tree/master/2126-destroying-asteroids) |
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
@@ -1009,6 +1012,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Harsimar8/Leet_Code/tree/master/0486-predict-the-winner) |
+| [1927-sum-game](https://github.com/Harsimar8/Leet_Code/tree/master/1927-sum-game) |
 ## Binary Search Tree
 |  |
 | ------- |
