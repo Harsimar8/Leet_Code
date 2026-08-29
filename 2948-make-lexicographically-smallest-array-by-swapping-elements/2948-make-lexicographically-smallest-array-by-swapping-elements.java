@@ -1,34 +1,26 @@
 class Solution {
     public int[] lexicographicallySmallestArray(int[] nums, int limit) {
         int n = nums.length;
-        int i =0;
-        int[] result = new int[n];
-        int[][] arr = new int[n][2];
+        int[] sort = nums.clone();
+        Arrays.sort(sort);
+        List<List<Integer>> lst = new ArrayList<>();
+        Map<Integer,Integer> mp = new HashMap<>();
+         int id = -1;
+        for(int  i=0; i<n; i++){
+            if(i ==0 || sort[i] - sort[i-1] > limit){
+                lst.add(new ArrayList<>());
+                id++;
+            }
+            lst.get(id).add(sort[i]);
+            mp.put(sort[i],id);
+        }
+        
+        int[] idx = new int[lst.size()];
         for(int j =0; j<n; j++){
-            arr[j][0] = nums[j];
-            arr[j][1] = j;
+            int cu =mp.get(nums[j]);
+            nums[j] = lst.get(cu).get(idx[cu]);
+            idx[cu]++;
         }
-        Arrays.sort(arr, (a,b) -> (a[0]-b[0]));
-
-        while(i < n){
-            List<Integer> ind = new ArrayList<>();
-            List<Integer> val = new ArrayList<>();
-
-
-            ind.add(arr[i][1]);
-            val.add(arr[i][0]);
-            int j =i +1;
-            while(j < n && arr[j][0] - arr[j-1][0] <= limit){
-                ind.add(arr[j][1]);
-                val.add(arr[j][0]);
-                j++;
-            }
-            Collections.sort(ind);
-            for(int k =0; k<ind.size(); k++){
-                result[ind.get(k)] = val.get(k);
-            }
-            i = j;
-        }
-        return result;
+        return nums;
     }
 }
