@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1920-build-array-from-permutation](https://github.com/Harsimar8/Leet_Code/tree/master/1920-build-array-from-permutation) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Harsimar8/Leet_Code/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2047-find-a-peak-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2047-find-a-peak-element-ii) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Harsimar8/Leet_Code/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/Harsimar8/Leet_Code/tree/master/2104-sum-of-subarray-ranges) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Harsimar8/Leet_Code/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Harsimar8/Leet_Code/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -975,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Harsimar8/Leet_Code/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Harsimar8/Leet_Code/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1927-sum-game](https://github.com/Harsimar8/Leet_Code/tree/master/1927-sum-game) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Harsimar8/Leet_Code/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Harsimar8/Leet_Code/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2126-destroying-asteroids](https://github.com/Harsimar8/Leet_Code/tree/master/2126-destroying-asteroids) |
 | [2591-frog-jump-ii](https://github.com/Harsimar8/Leet_Code/tree/master/2591-frog-jump-ii) |
