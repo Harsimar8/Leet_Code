@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Harsimar8/Leet_Code/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Harsimar8/Leet_Code/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3719-longest-balanced-subarray-i](https://github.com/Harsimar8/Leet_Code/tree/master/3719-longest-balanced-subarray-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
 ## String
 |  |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Harsimar8/Leet_Code/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Harsimar8/Leet_Code/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3606-coupon-code-validator](https://github.com/Harsimar8/Leet_Code/tree/master/3606-coupon-code-validator) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Harsimar8/Leet_Code/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Sliding Window
 |  |
@@ -891,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Harsimar8/Leet_Code/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3583-count-special-triplets](https://github.com/Harsimar8/Leet_Code/tree/master/3583-count-special-triplets) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -985,6 +988,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3075-maximize-happiness-of-selected-children](https://github.com/Harsimar8/Leet_Code/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Harsimar8/Leet_Code/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Harsimar8/Leet_Code/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Union Find
 |  |
 | ------- |
@@ -1120,6 +1124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2174-next-greater-numerically-balanced-number](https://github.com/Harsimar8/Leet_Code/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Harsimar8/Leet_Code/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Harsimar8/Leet_Code/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Harsimar8/Leet_Code/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Memoization
 |  |
 | ------- |
