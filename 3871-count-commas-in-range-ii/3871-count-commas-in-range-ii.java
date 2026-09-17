@@ -7,7 +7,7 @@ class Solution {
         long rangeE = rangeS * 1000 -1;
         long comma = 1;
         long total = 0;
-        while(rangeS <= n){
+        while(n >= rangeS){
             long num = Math.min(n, rangeE) - rangeS + 1;
              total += (long) comma * num;
 
