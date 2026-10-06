@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Harsimar8/Leet_Code/tree/master/0647-palindromic-substrings) |
 | [0812-rotate-string](https://github.com/Harsimar8/Leet_Code/tree/master/0812-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
+| [0856-score-of-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0856-score-of-parentheses) |
 | [1092-shortest-common-supersequence](https://github.com/Harsimar8/Leet_Code/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Harsimar8/Leet_Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
+| [0856-score-of-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0856-score-of-parentheses) |
 | [0907-sum-of-subarray-minimums](https://github.com/Harsimar8/Leet_Code/tree/master/0907-sum-of-subarray-minimums) |
 | [0943-sum-of-subarray-minimums](https://github.com/Harsimar8/Leet_Code/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Harsimar8/Leet_Code/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -1206,4 +1208,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/Harsimar8/Leet_Code/tree/master/0200-number-of-islands) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Harsimar8/Leet_Code/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0856-score-of-parentheses) |
 <!---LeetCode Topics End-->
