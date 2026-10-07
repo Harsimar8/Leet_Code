@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0516-longest-palindromic-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Harsimar8/Leet_Code/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0647-palindromic-substrings](https://github.com/Harsimar8/Leet_Code/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/Harsimar8/Leet_Code/tree/master/0678-valid-parenthesis-string) |
 | [0812-rotate-string](https://github.com/Harsimar8/Leet_Code/tree/master/0812-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0856-score-of-parentheses) |
@@ -473,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Harsimar8/Leet_Code/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/Harsimar8/Leet_Code/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/Harsimar8/Leet_Code/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Harsimar8/Leet_Code/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/Harsimar8/Leet_Code/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0856-score-of-parentheses) |
@@ -931,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Harsimar8/Leet_Code/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Harsimar8/Leet_Code/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/Harsimar8/Leet_Code/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/Harsimar8/Leet_Code/tree/master/0678-valid-parenthesis-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Harsimar8/Leet_Code/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -979,6 +982,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Harsimar8/Leet_Code/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/Harsimar8/Leet_Code/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/Harsimar8/Leet_Code/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/Harsimar8/Leet_Code/tree/master/0678-valid-parenthesis-string) |
 | [0738-monotone-increasing-digits](https://github.com/Harsimar8/Leet_Code/tree/master/0738-monotone-increasing-digits) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Harsimar8/Leet_Code/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0890-lemonade-change](https://github.com/Harsimar8/Leet_Code/tree/master/0890-lemonade-change) |
@@ -1211,5 +1215,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0678-valid-parenthesis-string](https://github.com/Harsimar8/Leet_Code/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/Harsimar8/Leet_Code/tree/master/0856-score-of-parentheses) |
 <!---LeetCode Topics End-->
