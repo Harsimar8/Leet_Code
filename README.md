@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Harsimar8/Leet_Code/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Harsimar8/Leet_Code/tree/master/3719-longest-balanced-subarray-i) |
 | [3863-power-grid-maintenance](https://github.com/Harsimar8/Leet_Code/tree/master/3863-power-grid-maintenance) |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/Harsimar8/Leet_Code/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Divide and Conquer
 |  |
 | ------- |
